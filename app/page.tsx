@@ -107,7 +107,7 @@ export default function AccessIQCaseStudy() {
               <div>
                 <h3 className="text-lg font-semibold">Four Portal Overview</h3>
               </div>
-              <div className="relative w-full h-[600px] md:h-[800px] rounded-2xl overflow-hidden mb-24">
+              <div className="relative w-full h-[600px] md:h-[800px] mb-24">
                 <Image
                   src="/Ecosystem/Four distinct portals.png"
                   alt="Four distinct portals"
@@ -118,7 +118,7 @@ export default function AccessIQCaseStudy() {
               <div className="mb-24">
                 <h3 className="text-lg font-semibold">Role-Based Access & Navigation (Module Visibility per Portal)</h3>
               </div>
-              <div className="relative w-full h-[600px] md:h-[800px] rounded-2xl overflow-hidden mb-0">
+              <div className="relative w-full h-[600px] md:h-[800px] mb-0">
                 <Image
                   src="/Ecosystem/Nav bar.png"
                   alt="Nav bar"
