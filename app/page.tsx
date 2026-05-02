@@ -104,9 +104,6 @@ export default function AccessIQCaseStudy() {
                   <li><span className="font-medium text-gray-900">Admin Portal:</span> A high-level control center for &quot;Program&quot; roles (StaffLogic internal) to manage configurations and global MSP/SaaS fees.</li>
                 </ul>
               </div>
-              <div>
-                <h3 className="text-lg font-semibold">Four Portal Overview</h3>
-              </div>
               <div className="relative w-full h-[600px] md:h-[800px] mb-24">
                 <Image
                   src="/Ecosystem/Role-Based Access & Navigation (Module Visibility per Portal).png"
