@@ -116,7 +116,7 @@ export default function AccessIQCaseStudy() {
                 />
               </div>
               <div className="pt-8">
-                <h3 className="text-lg font-semibold mb-2">Role-Based Access & Navigation (Module Visibility per Portal)</h3>
+                <h3 className="text-lg font-semibold">Role-Based Access & Navigation (Module Visibility per Portal)</h3>
               </div>
               <div className="relative w-full h-[600px] md:h-[800px] rounded-2xl overflow-hidden mb-6">
                 <Image
