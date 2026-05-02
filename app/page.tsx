@@ -609,49 +609,7 @@ export default function AccessIQCaseStudy() {
           </div>
         </section>
 
-        <section className="max-w-7xl mx-auto px-6 py-24 border-t border-gray-200">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-            <Link
-              href="/case-studies"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              ← All Case Studies
-            </Link>
-            <Link
-              href="/case-studies/finco"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              Next Project: Finco →
-            </Link>
-          </div>
-        </section>
       </main>
-
-      <footer className="border-t border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="text-sm text-gray-500">
-            Copyright ©2026. All rights reserved Sakshee Durshettiwar
-          </div>
-          <div className="flex gap-6">
-            <a
-              href="https://www.linkedin.com/in/sakshee-durshettiwar-product-designer/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="https://www.behance.net/saksheedurshet"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              Behance
-            </a>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
