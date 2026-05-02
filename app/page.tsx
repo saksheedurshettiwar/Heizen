@@ -141,6 +141,7 @@ export default function AccessIQCaseStudy() {
                   <li><span className="font-medium text-gray-900">The Union Rule:</span> A placement's compliance task list is the &quot;Union&quot; of the Candidate's Document Wallet items and the specific Requisition Checklist items.</li>
                 </ul>
               </div>
+              <div className="w-full h-px bg-gray-200 mt-12"></div>
             </div>
           )}
 
