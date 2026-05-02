@@ -19,19 +19,7 @@ export default function AccessIQCaseStudy() {
       </nav>
 
       <main className="pt-24">
-        <section className="max-w-7xl mx-auto px-6 pt-16 pb-12">
-          <Link
-            href="/case-studies"
-            className="text-gray-600 hover:text-gray-900 transition-colors text-sm"
-          >
-            ← Back to Case Studies
-          </Link>
-        </section>
-
-        <section className="max-w-7xl mx-auto px-6 pb-16">
-          <div className="mb-4 text-sm text-gray-600">
-            Fintech · B2B SaaS · AI-Powered
-          </div>
+        <section className="max-w-7xl mx-auto px-6 pt-16 pb-16">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 max-w-4xl text-gray-900">
             Cutting Access Risk by 67%<br />
             without the Security Jargon
