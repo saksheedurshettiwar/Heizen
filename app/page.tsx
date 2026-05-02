@@ -115,6 +115,17 @@ export default function AccessIQCaseStudy() {
                   className="object-contain"
                 />
               </div>
+              <div className="mb-24">
+                <h3 className="text-lg font-semibold">Role-Based Access & Navigation (Module Visibility per Portal)</h3>
+              </div>
+              <div className="relative w-full h-[600px] md:h-[800px] mb-0">
+                <Image
+                  src="/Ecosystem/2nd img/2nd img.png"
+                  alt="2nd img"
+                  fill
+                  className="object-contain"
+                />
+              </div>
               <div className="w-full mt-8 pt-8 border-t border-gray-200">
                 <div className="text-sm text-gray-400 mb-3">Constraints</div>
                 <p className="text-gray-600 leading-relaxed mb-3">
