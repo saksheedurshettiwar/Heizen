@@ -159,50 +159,6 @@ export default function AccessIQCaseStudy() {
                   <li><span className="font-medium text-gray-900">Step 5: Compliance & Submission Rules</span> (Integration of saved checklists and approval workflow toggles).</li>
                 </ul>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {[1, 2, 3, 4].map((num) => (
-                  <div key={num} className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gray-100">
-                    <Image
-                      src={`/case-studies/AccessIQ/Hero Section/0${num}.png`}
-                      alt={`Interaction Design ${num}`}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                ))}
-              </div>
-              <div className="w-full space-y-6">
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Screen 1: Dashboard</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Role-specific KPIs with actionable alerts. Managers see team availability and pending approvals. Compliance officers see open findings and upcoming audit deadlines.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Screen 2: Workforce Scheduler</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Drag-and-drop scheduling with compliance guardrails. The system prevents scheduling conflicts (certification expiry, max hours, required certifications) before the shift is confirmed.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Screen 3: Compliance Evidence Panel</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    One-click evidence generation for auditors. Each finding links to the raw data, the decision trail, and the responsible party. Export to PDF or share via secure link.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Screen 4: Access Management</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Role-based access provisioning with plain-English permission descriptions. Managers approve or deny in one click with an AI recommendation that explains the risk.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Screen 5: Analytics & Reporting</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Pre-built reports for compliance, utilization, and risk. Custom report builder with saved templates. Scheduled delivery to stakeholders via email or Slack.
-                  </p>
-                </div>
-              </div>
             </div>
           )}
 
