@@ -104,12 +104,10 @@ export default function AccessIQCaseStudy() {
                   <li><span className="font-medium text-gray-900">Admin Portal:</span> A high-level control center for &quot;Program&quot; roles (StaffLogic internal) to manage configurations and global MSP/SaaS fees.</li>
                 </ul>
               </div>
-              <div className="w-full space-y-6">
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Four Portal Overview</h3>
-                </div>
+              <div>
+                <h3 className="text-lg font-semibold">Four Portal Overview</h3>
               </div>
-              <div className="relative w-full h-[600px] md:h-[800px] rounded-2xl overflow-hidden mb-6">
+              <div className="relative w-full h-[600px] md:h-[800px] rounded-2xl overflow-hidden mb-24">
                 <Image
                   src="/Ecosystem/Four distinct portals.png"
                   alt="Four distinct portals"
@@ -117,10 +115,8 @@ export default function AccessIQCaseStudy() {
                   className="object-contain"
                 />
               </div>
-              <div className="w-full space-y-6">
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Role-Based Access & Navigation (Module Visibility per Portal)</h3>
-                </div>
+              <div className="pt-8">
+                <h3 className="text-lg font-semibold mb-2">Role-Based Access & Navigation (Module Visibility per Portal)</h3>
               </div>
               <div className="relative w-full h-[600px] md:h-[800px] rounded-2xl overflow-hidden mb-6">
                 <Image
