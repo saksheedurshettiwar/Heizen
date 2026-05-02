@@ -165,10 +165,15 @@ export default function AccessIQCaseStudy() {
           {activeTab === "strategic" && (
             <div className="space-y-12 pt-8">
               <div className="w-full">
-                <h2 className="text-2xl font-semibold mb-4">Strategic Approach</h2>
+                <h2 className="text-2xl font-semibold mb-4">Task 4: Strategic Approach (The "One-Week" Challenge)</h2>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  The project was delivered in a one-week design sprint, a deliberate choice to compress discovery, design, and stakeholder alignment into a focused period.
+                  NexusForce needs to be ready for development quickly. In a separate document or slide, answer the following:
                 </p>
+                <ul className="list-disc list-inside space-y-3 text-gray-600 leading-relaxed mb-6">
+                  <li>How would you approach the design process if the deadline for the entire portal (IA, all modules, and high-fidelity screens) was strictly one week?</li>
+                  <li>Detail your strategy for prioritisation, how you would handle &quot;Non-Goals&quot; (like external HR integrations or custom roles).</li>
+                  <li>How you would ensure that &quot;Non-Negotiable Automations&quot; (like automatic placement creation upon offer acceptance) are clearly accounted for in the UI.</li>
+                </ul>
               </div>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {[1, 2, 3, 4].map((num) => (
