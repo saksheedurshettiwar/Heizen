@@ -144,27 +144,21 @@ export default function AccessIQCaseStudy() {
               <div className="w-full h-px bg-gray-200 mt-12 mb-12"></div>
               <div className="w-full">
                 <h2 className="text-2xl font-semibold mb-8">Who owns what</h2>
-                <div className="space-y-8">
-                  <div className="flex flex-col sm:flex-row gap-4 sm:gap-12">
-                    <div className="font-medium text-gray-900 min-w-[140px]">Admin</div>
-                    <div className="text-gray-600 leading-relaxed">
-                      <p>Creates Compliance Checklist</p>
-                      <p className="text-gray-500 mt-1">(list of docs a worker must have for a job type)</p>
-                    </div>
+                <div className="grid md:grid-cols-3 gap-8">
+                  <div className="p-6 bg-gray-50 rounded-xl border border-gray-200">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3">Admin</h3>
+                    <p className="text-gray-700">Creates Compliance Checklist</p>
+                    <p className="text-gray-500 mt-2 text-sm">(list of docs a worker must have for a job type)</p>
                   </div>
-                  <div className="flex flex-col sm:flex-row gap-4 sm:gap-12">
-                    <div className="font-medium text-gray-900 min-w-[140px]">Org</div>
-                    <div className="text-gray-600 leading-relaxed">
-                      <p>Creates Requisition Template</p>
-                      <p className="text-gray-500 mt-1">(job description — attaches a checklist to it)</p>
-                    </div>
+                  <div className="p-6 bg-gray-50 rounded-xl border border-gray-200">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3">Org</h3>
+                    <p className="text-gray-700">Creates Requisition Template</p>
+                    <p className="text-gray-500 mt-2 text-sm">(job description — attaches a checklist to it)</p>
                   </div>
-                  <div className="flex flex-col sm:flex-row gap-4 sm:gap-12">
-                    <div className="font-medium text-gray-900 min-w-[140px]">Candidate</div>
-                    <div className="text-gray-600 leading-relaxed">
-                      <p>Owns Document Wallet</p>
-                      <p className="text-gray-500 mt-1">(their personal docs — BLS cert, license, etc.)</p>
-                    </div>
+                  <div className="p-6 bg-gray-50 rounded-xl border border-gray-200">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3">Candidate</h3>
+                    <p className="text-gray-700">Owns Document Wallet</p>
+                    <p className="text-gray-500 mt-2 text-sm">(their personal docs — BLS cert, license, etc.)</p>
                   </div>
                 </div>
               </div>
