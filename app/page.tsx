@@ -106,7 +106,7 @@ export default function AccessIQCaseStudy() {
                   </p>
                 </div>
               </div>
-              <div className="relative w-full h-[600px] md:h-[800px] rounded-2xl overflow-hidden bg-gray-100 mb-6">
+              <div className="relative w-full h-[600px] md:h-[800px] rounded-2xl overflow-hidden mb-6">
                 <Image
                   src="/Ecosystem/Four distinct portals.png"
                   alt="Four distinct portals"
