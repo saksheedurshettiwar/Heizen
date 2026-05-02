@@ -153,26 +153,6 @@ export default function AccessIQCaseStudy() {
                   </div>
                 ))}
               </div>
-              <div className="w-full space-y-6">
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Entity Relationships</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Mapped 47 data entities across workforce, compliance, access, and scheduling domains. Created a visual data dictionary that engineering used as the single source of truth for database schema.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Compliance-to-UI Mapping</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Every compliance requirement was traced to a specific screen element. For example, SOC 2 CC6.1 (logical access controls) maps to the role-permission matrix screen, with automated evidence capture on every change.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Audit Trail Design</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Designed a unified audit log that captures who changed what, when, and why — with plain-English explanations instead of raw database diffs. Auditors reduced review time by 60%.
-                  </p>
-                </div>
-              </div>
             </div>
           )}
 
