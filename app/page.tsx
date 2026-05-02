@@ -100,7 +100,7 @@ export default function AccessIQCaseStudy() {
               </div>
               <div className="relative aspect-video rounded-2xl overflow-hidden bg-gray-100 mb-6">
                 <Image
-                  src="/ecosystem/Four distinct portals/Four distinct portals.png"
+                  src="/Ecosystem/Four distinct portals.png"
                   alt="Four distinct portals"
                   fill
                   className="object-cover"
