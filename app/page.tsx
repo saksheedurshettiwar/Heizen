@@ -109,8 +109,8 @@ export default function AccessIQCaseStudy() {
               </div>
               <div className="relative w-full h-[600px] md:h-[800px] mb-24">
                 <Image
-                  src="/Ecosystem/Four distinct portals.png"
-                  alt="Four distinct portals"
+                  src="/Ecosystem/Role-Based Access & Navigation (Module Visibility per Portal).png"
+                  alt="Role-Based Access & Navigation"
                   fill
                   className="object-contain"
                 />
