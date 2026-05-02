@@ -147,10 +147,17 @@ export default function AccessIQCaseStudy() {
           {activeTab === "interaction" && (
             <div className="space-y-12 pt-8">
               <div className="w-full">
-                <h2 className="text-2xl font-semibold mb-4">Interaction Design</h2>
+                <h2 className="text-2xl font-semibold mb-4">Task 3: Interaction Design (Organisation Portal)</h2>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  Five core screens were designed with hi-fidelity interactions. Each interaction was tested against real user tasks: approving access, resolving conflicts, reviewing compliance evidence, scheduling shifts, and generating reports.
+                  Design a five-screen flow within the Organisation Portal for Creating a Requisition Template. This is the mandatory starting point for all job creation. Your flow must include the following steps as defined in the technical specs:
                 </p>
+                <ul className="list-disc list-inside space-y-3 text-gray-600 leading-relaxed mb-6">
+                  <li><span className="font-medium text-gray-900">Step 1: Type Selection</span> (Long-Term Order, Per Diem, Permanent, or Internal Flex Pool).</li>
+                  <li><span className="font-medium text-gray-900">Step 2: Details</span> (Name, Occupation, Specialty, Location, Department, and multi-select Benefits).</li>
+                  <li><span className="font-medium text-gray-900">Step 3: Shift & Schedule</span> (Shift types and specific HH:MM time ranges).</li>
+                  <li><span className="font-medium text-gray-900">Step 4: Compensation</span> (Bill Rates, Number of Positions, and optional Incentives).</li>
+                  <li><span className="font-medium text-gray-900">Step 5: Compliance & Submission Rules</span> (Integration of saved checklists and approval workflow toggles).</li>
+                </ul>
               </div>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {[1, 2, 3, 4].map((num) => (
