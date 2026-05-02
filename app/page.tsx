@@ -95,8 +95,14 @@ export default function AccessIQCaseStudy() {
               <div className="max-w-3xl">
                 <h2 className="text-2xl font-semibold mb-4">Ecosystem Information Architecture</h2>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  The platform needed to serve three distinct user types: workforce managers, compliance officers, and field technicians. Each role required different data visibility, action capabilities, and navigation patterns.
+                  Identify and map the four distinct portals referenced in the system requirements. You must create a detailed Information Architecture (IA) for the entire ecosystem. Your IA must account for the following role-based access and visibility constraints:
                 </p>
+                <ul className="list-disc list-inside space-y-3 text-gray-600 leading-relaxed mb-6">
+                  <li><span className="font-medium text-gray-900">Organisation Portal:</span> Must support Client Executives, Hiring Managers (department-scoped), and Operations roles. Note that vendor rates are strictly hidden from all roles in this portal.</li>
+                  <li><span className="font-medium text-gray-900">Vendor Portal:</span> Focuses on vendor-side management and Vendor Rates.</li>
+                  <li><span className="font-medium text-gray-900">Candidate Portal:</span> A simplified interface for workers to view incentives and manage documents.</li>
+                  <li><span className="font-medium text-gray-900">Admin Portal:</span> A high-level control center for &quot;Program&quot; roles (StaffLogic internal) to manage configurations and global MSP/SaaS fees.</li>
+                </ul>
               </div>
               <div className="max-w-3xl space-y-6">
                 <div>
