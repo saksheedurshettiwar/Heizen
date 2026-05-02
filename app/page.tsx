@@ -162,6 +162,64 @@ export default function AccessIQCaseStudy() {
                   </div>
                 </div>
               </div>
+              <div className="w-full h-px bg-gray-200 mt-12 mb-12"></div>
+              <div className="w-full">
+                <h2 className="text-2xl font-semibold mb-8">The relationship between Requisition Templates, the Document Wallet, and Compliance Checklists</h2>
+                <div className="bg-gray-50 rounded-xl border border-gray-200 p-6 md:p-8 font-mono text-sm leading-relaxed overflow-x-auto">
+                  <div className="space-y-6">
+                    <div>
+                      <span className="text-blue-600 font-bold">ADMIN</span> creates ──► <span className="bg-white px-2 py-1 border border-gray-300 rounded text-gray-900">[Compliance Checklist]</span>
+                      <div className="pl-8 mt-2 text-gray-600">
+                        <p>• BLS Cert</p>
+                        <p>• Drug Screen</p>
+                        <p>• State License</p>
+                        <div className="mt-2 text-orange-600 font-medium text-xs">
+                          ← IMMUTABILITY RULE: edit this checklist later? ongoing placements = not affected
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pl-8 text-gray-400 text-xs">│ org attaches it ▼</div>
+                    <div>
+                      <span className="text-purple-600 font-bold">ORG</span> creates ────► <span className="bg-white px-2 py-1 border border-gray-300 rounded text-gray-900">[Requisition Template]</span>
+                      <div className="pl-8 mt-2 text-gray-600">
+                        <p>• ICU Nurse · Day Shift</p>
+                        <p>• $54/hr · SF Location</p>
+                        <p>• + checklist attached</p>
+                        <div className="mt-2 text-orange-600 font-medium text-xs">
+                          ← SNAPSHOT RULE: edit this template later? existing jobs = not affected
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pl-8 text-gray-400 text-xs">│ org posts job ▼</div>
+                    <div className="pl-8">
+                      <span className="bg-white px-2 py-1 border border-gray-300 rounded text-gray-900">[Job Posting]</span>
+                      <p className="mt-2 text-gray-600">(template + checklist both frozen here)</p>
+                    </div>
+                    <div className="pl-8 text-gray-400 text-xs">│ vendor submits candidate / candidate gets placed ▼</div>
+                    <div>
+                      <span className="text-green-600 font-bold">CANDIDATE</span> owns ──► <span className="bg-white px-2 py-1 border border-gray-300 rounded text-gray-900">[Document Wallet]</span>
+                      <div className="pl-8 mt-2 text-gray-600">
+                        <p>• BLS Cert ✓</p>
+                        <p>• Driver's License ✓</p>
+                        <p>• ACLS Cert ✓</p>
+                        <div className="mt-2 text-orange-600 font-medium text-xs">
+                          ← UNION RULE: wallet docs + job checklist combined into one list (dedup applied)
+                        </div>
+                      </div>
+                    </div>
+                    <div className="pl-8 text-gray-400 text-xs">▼</div>
+                    <div className="pl-8">
+                      <span className="bg-blue-100 px-2 py-1 border border-blue-300 rounded text-blue-900 font-medium">[Placement Task List]</span>
+                      <div className="pl-8 mt-2 space-y-1">
+                        <p className="text-green-600">✓ BLS Cert — in wallet, approved</p>
+                        <p className="text-green-600">✓ Driver's License — in wallet, approved</p>
+                        <p className="text-red-600">○ Drug Screen — required, not uploaded</p>
+                        <p className="text-red-600">○ State License — required, not uploaded</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           )}
 
