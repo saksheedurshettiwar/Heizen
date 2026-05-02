@@ -114,20 +114,6 @@ export default function AccessIQCaseStudy() {
                   className="object-cover"
                 />
               </div>
-              <div className="max-w-3xl space-y-6">
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Cross-Platform Consistency</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Ensured naming conventions, iconography, and interaction patterns remain consistent across desktop, tablet, and mobile. A shared component library reduced design debt by 40% in subsequent iterations.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Scalable Structure</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Designed the IA to accommodate future modules (billing, analytics, training) without restructuring the core navigation. Each module slots into a predefined information layer.
-                  </p>
-                </div>
-              </div>
             </div>
           )}
 
