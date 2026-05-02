@@ -33,7 +33,7 @@ export default function AccessIQCaseStudy() {
 
       <main className="pt-24">
         <section className="w-full px-6 md:px-12 lg:px-24 pt-16 pb-16">
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 text-gray-900">
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 text-gray-900">
             NexusForce Ecosystem Design
           </h1>
         </section>
