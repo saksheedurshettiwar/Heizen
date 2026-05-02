@@ -98,17 +98,13 @@ export default function AccessIQCaseStudy() {
                   The platform needed to serve three distinct user types: workforce managers, compliance officers, and field technicians. Each role required different data visibility, action capabilities, and navigation patterns.
                 </p>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {[1, 2, 3, 4].map((num) => (
-                  <div key={num} className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gray-100">
-                    <Image
-                      src={`/case-studies/AccessIQ/Hero Section/0${num}.png`}
-                      alt={`IA Architecture ${num}`}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                ))}
+              <div className="relative aspect-video rounded-2xl overflow-hidden bg-gray-100 mb-6">
+                <Image
+                  src="/ecosystem/Four distinct portals/Four distinct portals.png"
+                  alt="Four distinct portals"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <div className="max-w-3xl space-y-6">
                 <div>
