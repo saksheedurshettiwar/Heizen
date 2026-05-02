@@ -100,10 +100,7 @@ export default function AccessIQCaseStudy() {
               </div>
               <div className="max-w-3xl space-y-6">
                 <div>
-                  <h3 className="text-lg font-semibold mb-2">Role-Based Hierarchies</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Built three parallel navigation trees that share common data layers but diverge at the action layer. Managers see team-level dashboards, compliance officers see audit trails and risk flags, and technicians see task queues and schedule views.
-                  </p>
+                  <h3 className="text-lg font-semibold mb-2">Four Portal Overview</h3>
                 </div>
               </div>
               <div className="relative w-full h-[600px] md:h-[800px] rounded-2xl overflow-hidden mb-6">
