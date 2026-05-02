@@ -124,6 +124,12 @@ export default function AccessIQCaseStudy() {
                   className="object-contain"
                 />
               </div>
+              <div className="max-w-3xl mt-8 pt-8 border-t border-gray-200">
+                <div className="text-sm text-gray-400 mb-3">Visibility & Navigation Constraints</div>
+                <p className="text-gray-600 leading-relaxed">
+                  Rate visibility and navigation access are enforced at the system level, not the component level. Vendor rates are structurally absent from the Organisation Portal across all roles — not hidden, not greyed out, not permission-locked. If a role has no access to a module, the navigation item does not exist in the DOM. This is a product decision, not a UI pattern.
+                </p>
+              </div>
             </div>
           )}
 
