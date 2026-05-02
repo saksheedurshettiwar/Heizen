@@ -25,7 +25,7 @@ export default function AccessIQCaseStudy() {
             Ecosystem Design
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mb-12">
-            Designing access governance for a global fintech so managers could own access decisions without needing a security degree.
+            IA architecture, compliance data mapping, five-screen hi-fi interaction design, and a one-week sprint strategy for an enterprise workforce MSP platform.
           </p>
         </section>
 
