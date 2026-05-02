@@ -141,18 +141,6 @@ export default function AccessIQCaseStudy() {
                   <li><span className="font-medium text-gray-900">The Union Rule:</span> A placement's compliance task list is the &quot;Union&quot; of the Candidate's Document Wallet items and the specific Requisition Checklist items.</li>
                 </ul>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {[1, 2, 3, 4].map((num) => (
-                  <div key={num} className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gray-100">
-                    <Image
-                      src={`/case-studies/AccessIQ/Hero Section/0${num}.png`}
-                      alt={`Data Mapping ${num}`}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                ))}
-              </div>
             </div>
           )}
 
