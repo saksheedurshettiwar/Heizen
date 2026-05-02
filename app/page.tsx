@@ -120,7 +120,7 @@ export default function AccessIQCaseStudy() {
               </div>
               <div className="relative w-full h-[600px] md:h-[800px] mb-0">
                 <Image
-                  src="/Ecosystem/2nd img/2nd img.png"
+                  src="/Ecosystem/2nd Img.png"
                   alt="2nd img"
                   fill
                   className="object-contain"
