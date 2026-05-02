@@ -29,6 +29,23 @@ export default function AccessIQCaseStudy() {
           </p>
         </section>
 
+        <section className="w-full px-6 md:px-12 lg:px-24 pb-12">
+          <div className="flex flex-wrap gap-3">
+            <div className="px-5 py-2.5 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
+              Ecosystem Information Architecture
+            </div>
+            <div className="px-5 py-2.5 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
+              Data Relationship and Compliance Mapping
+            </div>
+            <div className="px-5 py-2.5 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
+              Interaction Design
+            </div>
+            <div className="px-5 py-2.5 bg-gray-100 text-gray-700 rounded-full text-sm font-medium">
+              Strategic Approach
+            </div>
+          </div>
+        </section>
+
         <section className="w-full px-6 md:px-12 lg:px-24 pb-24">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[1, 2, 3, 4].map((num) => (
