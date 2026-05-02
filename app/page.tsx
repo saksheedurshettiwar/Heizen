@@ -93,7 +93,7 @@ export default function AccessIQCaseStudy() {
           {activeTab === "ecosystem" && (
             <div className="space-y-12 pt-8">
               <div className="max-w-3xl">
-                <h2 className="text-2xl font-semibold mb-4">Ecosystem Information Architecture</h2>
+                <h2 className="text-2xl font-semibold mb-4">Task 1: Ecosystem Information Architecture</h2>
                 <p className="text-gray-600 leading-relaxed mb-6">
                   Identify and map the four distinct portals referenced in the system requirements. You must create a detailed Information Architecture (IA) for the entire ecosystem. Your IA must account for the following role-based access and visibility constraints:
                 </p>
