@@ -20,11 +20,11 @@ export default function AccessIQCaseStudy() {
 
       <main className="pt-24">
         <section className="w-full px-6 md:px-12 lg:px-24 pt-16 pb-16">
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 w-full text-gray-900">
-            Cutting Access Risk by 67%<br />
-            without the Security Jargon
+          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 max-w-4xl text-gray-900">
+            NexusForce<br />
+            Ecosystem Design
           </h1>
-          <p className="text-xl text-gray-600 w-full mb-12">
+          <p className="text-xl text-gray-600 max-w-3xl mb-12">
             Designing access governance for a global fintech so managers could own access decisions without needing a security degree.
           </p>
         </section>
