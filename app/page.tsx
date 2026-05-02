@@ -33,9 +33,8 @@ export default function AccessIQCaseStudy() {
 
       <main className="pt-24">
         <section className="w-full px-6 md:px-12 lg:px-24 pt-16 pb-16">
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 max-w-4xl text-gray-900">
-            NexusForce<br />
-            Ecosystem Design
+          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 text-gray-900">
+            NexusForce Ecosystem Design
           </h1>
           <p className="text-xl text-gray-600 w-full mb-8">
             IA architecture, compliance data mapping, five-screen hi-fi interaction design, and a one-week sprint strategy for an enterprise workforce MSP platform.
