@@ -115,10 +115,10 @@ export default function AccessIQCaseStudy() {
                   className="object-contain"
                 />
               </div>
-              <div className="pt-8">
+              <div className="mb-24">
                 <h3 className="text-lg font-semibold">Role-Based Access & Navigation (Module Visibility per Portal)</h3>
               </div>
-              <div className="relative w-full h-[600px] md:h-[800px] rounded-2xl overflow-hidden mb-6">
+              <div className="relative w-full h-[600px] md:h-[800px] rounded-2xl overflow-hidden mb-0">
                 <Image
                   src="/Ecosystem/Nav bar.png"
                   alt="Nav bar"
