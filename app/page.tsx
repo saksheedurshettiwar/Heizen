@@ -141,7 +141,33 @@ export default function AccessIQCaseStudy() {
                   <li><span className="font-medium text-gray-900">The Union Rule:</span> A placement's compliance task list is the &quot;Union&quot; of the Candidate's Document Wallet items and the specific Requisition Checklist items.</li>
                 </ul>
               </div>
-              <div className="w-full h-px bg-gray-200 mt-12"></div>
+              <div className="w-full h-px bg-gray-200 mt-12 mb-12"></div>
+              <div className="w-full">
+                <h2 className="text-2xl font-semibold mb-8">Who owns what</h2>
+                <div className="space-y-8">
+                  <div className="flex flex-col sm:flex-row gap-4 sm:gap-12">
+                    <div className="font-medium text-gray-900 min-w-[140px]">Admin</div>
+                    <div className="text-gray-600 leading-relaxed">
+                      <p>Creates Compliance Checklist</p>
+                      <p className="text-gray-500 mt-1">(list of docs a worker must have for a job type)</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-col sm:flex-row gap-4 sm:gap-12">
+                    <div className="font-medium text-gray-900 min-w-[140px]">Org</div>
+                    <div className="text-gray-600 leading-relaxed">
+                      <p>Creates Requisition Template</p>
+                      <p className="text-gray-500 mt-1">(job description — attaches a checklist to it)</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-col sm:flex-row gap-4 sm:gap-12">
+                    <div className="font-medium text-gray-900 min-w-[140px]">Candidate</div>
+                    <div className="text-gray-600 leading-relaxed">
+                      <p>Owns Document Wallet</p>
+                      <p className="text-gray-500 mt-1">(their personal docs — BLS cert, license, etc.)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           )}
 
