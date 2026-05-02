@@ -37,7 +37,7 @@ export default function AccessIQCaseStudy() {
             NexusForce<br />
             Ecosystem Design
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mb-8">
+          <p className="text-xl text-gray-600 w-full mb-8">
             IA architecture, compliance data mapping, five-screen hi-fi interaction design, and a one-week sprint strategy for an enterprise workforce MSP platform.
           </p>
         </section>
@@ -63,7 +63,7 @@ export default function AccessIQCaseStudy() {
         <section className="w-full px-6 md:px-12 lg:px-24 pb-24">
           {activeTab === "overview" && (
             <div className="space-y-12 pt-8">
-              <div className="max-w-3xl">
+              <div className="w-full">
                 <h2 className="text-2xl font-semibold mb-4">The Challenge</h2>
                 <p className="text-gray-600 leading-relaxed">
                   Enterprise MSP platforms struggle with fragmented workforce management. NexusForce needed a unified ecosystem that connects compliance data, access controls, and workforce scheduling into one coherent platform.
@@ -81,7 +81,7 @@ export default function AccessIQCaseStudy() {
                   </div>
                 ))}
               </div>
-              <div className="max-w-3xl">
+              <div className="w-full">
                 <h2 className="text-2xl font-semibold mb-4">My Role</h2>
                 <p className="text-gray-600 leading-relaxed">
                   End-to-end product design: information architecture, compliance data mapping, interaction design, and strategic sprint planning. Delivered in a one-week intensive design sprint with stakeholder alignment at every milestone.
@@ -92,7 +92,7 @@ export default function AccessIQCaseStudy() {
 
           {activeTab === "ecosystem" && (
             <div className="space-y-12 pt-8">
-              <div className="max-w-3xl">
+              <div className="w-full">
                 <h2 className="text-2xl font-semibold mb-4">Task 1: Ecosystem Information Architecture</h2>
                 <p className="text-gray-600 leading-relaxed mb-6">
                   Identify and map the four distinct portals referenced in the system requirements. You must create a detailed Information Architecture (IA) for the entire ecosystem. Your IA must account for the following role-based access and visibility constraints:
@@ -104,7 +104,7 @@ export default function AccessIQCaseStudy() {
                   <li><span className="font-medium text-gray-900">Admin Portal:</span> A high-level control center for &quot;Program&quot; roles (StaffLogic internal) to manage configurations and global MSP/SaaS fees.</li>
                 </ul>
               </div>
-              <div className="max-w-3xl space-y-6">
+              <div className="w-full space-y-6">
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Four Portal Overview</h3>
                 </div>
@@ -117,7 +117,7 @@ export default function AccessIQCaseStudy() {
                   className="object-contain"
                 />
               </div>
-              <div className="max-w-3xl space-y-6">
+              <div className="w-full space-y-6">
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Role-Based Access & Navigation (Module Visibility per Portal)</h3>
                 </div>
@@ -130,7 +130,7 @@ export default function AccessIQCaseStudy() {
                   className="object-contain"
                 />
               </div>
-              <div className="max-w-3xl mt-8 pt-8 border-t border-gray-200">
+              <div className="w-full mt-8 pt-8 border-t border-gray-200">
                 <div className="text-sm text-gray-400 mb-3">Constraints</div>
                 <p className="text-gray-600 leading-relaxed mb-3">
                   Vendor rates are never exposed in the Organisation Portal — absent, not hidden.
@@ -144,7 +144,7 @@ export default function AccessIQCaseStudy() {
 
           {activeTab === "data" && (
             <div className="space-y-12 pt-8">
-              <div className="max-w-3xl">
+              <div className="w-full">
                 <h2 className="text-2xl font-semibold mb-4">Data Relationship and Compliance Mapping</h2>
                 <p className="text-gray-600 leading-relaxed mb-6">
                   Enterprise MSP platforms must comply with SOC 2, ISO 27001, and industry-specific regulations. The data model needed to map every compliance requirement to a visible UI element and audit trail.
@@ -162,7 +162,7 @@ export default function AccessIQCaseStudy() {
                   </div>
                 ))}
               </div>
-              <div className="max-w-3xl space-y-6">
+              <div className="w-full space-y-6">
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Entity Relationships</h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -187,7 +187,7 @@ export default function AccessIQCaseStudy() {
 
           {activeTab === "interaction" && (
             <div className="space-y-12 pt-8">
-              <div className="max-w-3xl">
+              <div className="w-full">
                 <h2 className="text-2xl font-semibold mb-4">Interaction Design</h2>
                 <p className="text-gray-600 leading-relaxed mb-6">
                   Five core screens were designed with hi-fidelity interactions. Each interaction was tested against real user tasks: approving access, resolving conflicts, reviewing compliance evidence, scheduling shifts, and generating reports.
@@ -205,7 +205,7 @@ export default function AccessIQCaseStudy() {
                   </div>
                 ))}
               </div>
-              <div className="max-w-3xl space-y-6">
+              <div className="w-full space-y-6">
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Screen 1: Dashboard</h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -242,7 +242,7 @@ export default function AccessIQCaseStudy() {
 
           {activeTab === "strategic" && (
             <div className="space-y-12 pt-8">
-              <div className="max-w-3xl">
+              <div className="w-full">
                 <h2 className="text-2xl font-semibold mb-4">Strategic Approach</h2>
                 <p className="text-gray-600 leading-relaxed mb-6">
                   The project was delivered in a one-week design sprint, a deliberate choice to compress discovery, design, and stakeholder alignment into a focused period.
@@ -260,7 +260,7 @@ export default function AccessIQCaseStudy() {
                   </div>
                 ))}
               </div>
-              <div className="max-w-3xl space-y-6">
+              <div className="w-full space-y-6">
                 <div>
                   <h3 className="text-lg font-semibold mb-2">Day 1–2: Discovery & Alignment</h3>
                   <p className="text-gray-600 leading-relaxed">
