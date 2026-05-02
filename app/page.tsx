@@ -116,7 +116,7 @@ export default function AccessIQCaseStudy() {
               </div>
               <div className="relative w-full h-[600px] md:h-[800px] rounded-2xl overflow-hidden mb-6">
                 <Image
-                  src="/Ecosystem/Nav bar/Nav bar.png"
+                  src="/Ecosystem/Nav bar.png"
                   alt="Nav bar"
                   fill
                   className="object-contain"
