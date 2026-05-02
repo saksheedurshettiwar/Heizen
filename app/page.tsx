@@ -175,44 +175,6 @@ export default function AccessIQCaseStudy() {
                   <li>How you would ensure that &quot;Non-Negotiable Automations&quot; (like automatic placement creation upon offer acceptance) are clearly accounted for in the UI.</li>
                 </ul>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {[1, 2, 3, 4].map((num) => (
-                  <div key={num} className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gray-100">
-                    <Image
-                      src={`/case-studies/AccessIQ/Hero Section/0${num}.png`}
-                      alt={`Strategic Approach ${num}`}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                ))}
-              </div>
-              <div className="w-full space-y-6">
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Day 1–2: Discovery & Alignment</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Stakeholder interviews, existing tool audit, compliance requirement mapping. Defined the problem space and success metrics with engineering and product leadership.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Day 3: Information Architecture</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Built the site map, navigation hierarchy, and data model. Validated with a card-sorting exercise involving 8 users from three roles.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Day 4: Hi-Fi Design</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Designed all five core screens with interactions, states, and edge cases. Created a Figma prototype for stakeholder walkthrough.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2">Day 5: Review & Handoff</h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    Stakeholder review session, design critique, and engineering handoff. Delivered annotated Figma files, component specs, and a prioritized backlog for the next sprint.
-                  </p>
-                </div>
-              </div>
             </div>
           )}
         </section>
