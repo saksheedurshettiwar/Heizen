@@ -5,7 +5,7 @@ export default function AccessIQCaseStudy() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="w-full px-6 md:px-12 lg:px-24 py-4 flex items-center justify-between">
           <Link href="/" className="text-lg font-semibold text-gray-900">
             Sakshee Durshettiwar
           </Link>
@@ -19,17 +19,17 @@ export default function AccessIQCaseStudy() {
       </nav>
 
       <main className="pt-24">
-        <section className="max-w-7xl mx-auto px-6 pt-16 pb-16">
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 max-w-4xl text-gray-900">
+        <section className="w-full px-6 md:px-12 lg:px-24 pt-16 pb-16">
+          <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 w-full text-gray-900">
             Cutting Access Risk by 67%<br />
             without the Security Jargon
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mb-12">
+          <p className="text-xl text-gray-600 w-full mb-12">
             Designing access governance for a global fintech so managers could own access decisions without needing a security degree.
           </p>
         </section>
 
-        <section className="max-w-7xl mx-auto px-6 pb-24">
+        <section className="w-full px-6 md:px-12 lg:px-24 pb-24">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[1, 2, 3, 4].map((num) => (
               <div key={num} className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gray-100">
@@ -44,7 +44,7 @@ export default function AccessIQCaseStudy() {
           </div>
         </section>
 
-        <section className="max-w-7xl mx-auto px-6 py-24 border-t border-gray-200">
+        <section className="w-full px-6 md:px-12 lg:px-24 py-24 border-t border-gray-200">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-gray-900">What success looks like</h2>
           <div className="grid md:grid-cols-3 gap-12">
             <div>
@@ -68,13 +68,13 @@ export default function AccessIQCaseStudy() {
           </div>
         </section>
 
-        <section className="max-w-7xl mx-auto px-6 py-24 border-t border-gray-200">
+        <section className="w-full px-6 md:px-12 lg:px-24 py-24 border-t border-gray-200">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">The UX Gap</h2>
           <p className="text-gray-600 text-lg mb-12">
             What a manager actually sees when they try to approve access.
           </p>
 
-          <div className="max-w-3xl mb-12">
+          <div className="w-full mb-12">
             <p className="text-gray-700 mb-6">
               Here's the core UX problem. Existing tools were built by security engineers, for security engineers, non-technical managers are handed this interface and asked to make a risk-based decision.
             </p>
@@ -84,7 +84,7 @@ export default function AccessIQCaseStudy() {
           </div>
         </section>
 
-        <section className="max-w-7xl mx-auto px-6 py-24 border-t border-gray-200">
+        <section className="w-full px-6 md:px-12 lg:px-24 py-24 border-t border-gray-200">
           <h2 className="text-3xl md:text-4xl font-bold mb-16 text-gray-900">What Existing Tools Show vs What AccessIQ Shows</h2>
 
           <div className="grid md:grid-cols-2 gap-12">
@@ -150,14 +150,14 @@ export default function AccessIQCaseStudy() {
           </div>
         </section>
 
-        <section className="max-w-7xl mx-auto px-6 py-24 border-t border-gray-200">
+        <section className="w-full px-6 md:px-12 lg:px-24 py-24 border-t border-gray-200">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">The Core Problems</h2>
-          <p className="text-gray-600 text-lg mb-16 max-w-3xl">
+          <p className="text-gray-600 text-lg mb-16 w-full">
             Moments where everything goes wrong. Not edge cases. These happen daily at every global fintech, each one a UX failure, a process failure, and a compliance failure rolled into one.
           </p>
 
           <div className="space-y-16">
-            <div className="max-w-3xl">
+            <div className="w-full">
               <div className="text-sm text-gray-500 mb-2">01</div>
               <h3 className="text-2xl font-semibold mb-4 text-gray-900">New hires start wrong</h3>
               <p className="text-gray-600 mb-4">
@@ -168,7 +168,7 @@ export default function AccessIQCaseStudy() {
               </p>
             </div>
 
-            <div className="max-w-3xl">
+            <div className="w-full">
               <div className="text-sm text-gray-500 mb-2">02</div>
               <h3 className="text-2xl font-semibold mb-4 text-gray-900">Access accumulates and nobody notices</h3>
               <p className="text-gray-600 mb-4">
@@ -179,7 +179,7 @@ export default function AccessIQCaseStudy() {
               </p>
             </div>
 
-            <div className="max-w-3xl">
+            <div className="w-full">
               <div className="text-sm text-gray-500 mb-2">03</div>
               <h3 className="text-2xl font-semibold mb-4 text-gray-900">Quarterly reviews are a tick-box exercise</h3>
               <p className="text-gray-600 mb-4">
@@ -192,23 +192,23 @@ export default function AccessIQCaseStudy() {
           </div>
         </section>
 
-        <section className="max-w-7xl mx-auto px-6 py-24 border-t border-gray-200">
+        <section className="w-full px-6 md:px-12 lg:px-24 py-24 border-t border-gray-200">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Research</h2>
-          <p className="text-gray-600 text-lg mb-12 max-w-3xl">
+          <p className="text-gray-600 text-lg mb-12 w-full">
             What I found when I looked at existing tools
           </p>
-          <p className="text-gray-700 max-w-3xl">
+          <p className="text-gray-700 w-full">
             I looked at 12 platforms in this space, the big enterprise names and newer challengers. Every single one showed managers raw technical data and asked them to make a judgment call.
           </p>
-          <p className="text-gray-700 max-w-3xl mt-4">
+          <p className="text-gray-700 w-full mt-4">
             None of them explained what the data meant. None suggested what the manager should do. None were designed for someone without a security background.
           </p>
         </section>
 
-        <section className="max-w-7xl mx-auto px-6 py-24 border-t border-gray-200">
+        <section className="w-full px-6 md:px-12 lg:px-24 py-24 border-t border-gray-200">
           <h2 className="text-3xl md:text-4xl font-bold mb-16 text-gray-900">The Three Gaps</h2>
 
-          <div className="space-y-12 max-w-4xl">
+          <div className="space-y-12 w-full">
             <div>
               <div className="text-sm text-gray-500 mb-2">Gap 01</div>
               <h3 className="text-2xl font-semibold mb-2 text-gray-900">Language</h3>
@@ -237,21 +237,21 @@ export default function AccessIQCaseStudy() {
             </div>
           </div>
 
-          <p className="text-xl text-gray-700 mt-16 max-w-3xl">
+          <p className="text-xl text-gray-700 mt-16 w-full">
             The gap wasn't in the technology. It was in who the technology was talking to.
           </p>
         </section>
 
-        <section className="max-w-7xl mx-auto px-6 py-24 border-t border-gray-200">
+        <section className="w-full px-6 md:px-12 lg:px-24 py-24 border-t border-gray-200">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">The People</h2>
-          <p className="text-gray-600 text-lg mb-16 max-w-3xl">
+          <p className="text-gray-600 text-lg mb-16 w-full">
             Who's actually involved
           </p>
-          <p className="text-gray-700 max-w-3xl mb-12">
+          <p className="text-gray-700 w-full mb-12">
             This isn't a technology problem. It's a people problem.
           </p>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl">
+          <div className="grid md:grid-cols-3 gap-8 w-full">
             <div className="bg-gray-50 rounded-2xl p-8 border border-gray-200">
               <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
                 <span className="text-blue-600 font-bold text-xl">M</span>
@@ -304,13 +304,13 @@ export default function AccessIQCaseStudy() {
             </div>
           </div>
 
-          <p className="text-gray-700 max-w-3xl mt-12">
+          <p className="text-gray-700 w-full mt-12">
             The problem isn't that managers are careless. It's that the tools they're given speak a language they were never taught.
           </p>
         </section>
 
-        <section className="max-w-7xl mx-auto px-6 py-24 border-t border-gray-200">
-          <div className="max-w-3xl">
+        <section className="w-full px-6 md:px-12 lg:px-24 py-24 border-t border-gray-200">
+          <div className="w-full">
             <div className="text-sm text-gray-500 mb-4">North Star</div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
               Can a non-technical manager make a confident decision in under 60 seconds?
@@ -318,9 +318,9 @@ export default function AccessIQCaseStudy() {
           </div>
         </section>
 
-        <section className="max-w-7xl mx-auto px-6 py-24 border-t border-gray-200">
+        <section className="w-full px-6 md:px-12 lg:px-24 py-24 border-t border-gray-200">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">The screens and the thinking behind each one</h2>
-          <p className="text-gray-600 text-lg mb-16 max-w-3xl">
+          <p className="text-gray-600 text-lg mb-16 w-full">
             One question drove every screen.
           </p>
 
@@ -329,7 +329,7 @@ export default function AccessIQCaseStudy() {
               <div className="text-sm text-gray-500 mb-4">01</div>
               <h3 className="text-2xl font-semibold mb-8 text-gray-900">Manager Dashboard</h3>
 
-              <div className="max-w-3xl mb-8">
+              <div className="w-full mb-8">
                 <div className="mb-6">
                   <h4 className="text-sm text-gray-500 mb-2">The Problem</h4>
                   <p className="text-gray-700">
@@ -353,7 +353,7 @@ export default function AccessIQCaseStudy() {
                 />
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 max-w-3xl">
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 w-full">
                 <div className="text-sm text-blue-600 mb-2">Research insight</div>
                 <p className="text-gray-700">
                   91% of managers had no consolidated view of their team's access health. The KPIs weren't pulled from a compliance checklist, they came from what managers were already trying to track themselves.
@@ -365,7 +365,7 @@ export default function AccessIQCaseStudy() {
               <div className="text-sm text-gray-500 mb-4">02</div>
               <h3 className="text-2xl font-semibold mb-8 text-gray-900">Conflict Detection</h3>
 
-              <div className="max-w-3xl mb-8">
+              <div className="w-full mb-8">
                 <div className="mb-6">
                   <h4 className="text-sm text-gray-500 mb-2">The Problem</h4>
                   <p className="text-gray-700">
@@ -389,7 +389,7 @@ export default function AccessIQCaseStudy() {
                 />
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 max-w-3xl">
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 w-full">
                 <div className="text-sm text-blue-600 mb-2">Research insight</div>
                 <p className="text-gray-700">
                   Managers approved conflicts in other tools because warnings were visual noise with no meaning. Replacing the red badge with a one-line consequence was the change that turned ignored alerts into actual decisions.
@@ -401,7 +401,7 @@ export default function AccessIQCaseStudy() {
               <div className="text-sm text-gray-500 mb-4">03</div>
               <h3 className="text-2xl font-semibold mb-8 text-gray-900">Approvals Queue</h3>
 
-              <div className="max-w-3xl mb-8">
+              <div className="w-full mb-8">
                 <div className="mb-6">
                   <h4 className="text-sm text-gray-500 mb-2">The Problem</h4>
                   <p className="text-gray-700">
@@ -425,7 +425,7 @@ export default function AccessIQCaseStudy() {
                 />
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 max-w-3xl">
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 w-full">
                 <div className="text-sm text-blue-600 mb-2">Research insight</div>
                 <p className="text-gray-700">
                   Approval fatigue is the leading cause of over-provisioning in high-volume IAM environments. When everything looks the same priority, risky requests slip through alongside routine ones.
@@ -437,7 +437,7 @@ export default function AccessIQCaseStudy() {
               <div className="text-sm text-gray-500 mb-4">04</div>
               <h3 className="text-2xl font-semibold mb-8 text-gray-900">AI Recommendation</h3>
 
-              <div className="max-w-3xl mb-8">
+              <div className="w-full mb-8">
                 <div className="mb-6">
                   <h4 className="text-sm text-gray-500 mb-2">The Problem</h4>
                   <p className="text-gray-700">
@@ -471,7 +471,7 @@ export default function AccessIQCaseStudy() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 max-w-3xl">
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 w-full">
                 <div className="text-sm text-blue-600 mb-2">Research insight</div>
                 <p className="text-gray-700">
                   Adding the confidence score and plain-English reasoning was the single change that lifted AI suggestion adoption from 22% to 61% in testing.
@@ -483,7 +483,7 @@ export default function AccessIQCaseStudy() {
               <div className="text-sm text-gray-500 mb-4">05</div>
               <h3 className="text-2xl font-semibold mb-8 text-gray-900">Access Catalogue</h3>
 
-              <div className="max-w-3xl mb-8">
+              <div className="w-full mb-8">
                 <div className="mb-6">
                   <h4 className="text-sm text-gray-500 mb-2">The Problem</h4>
                   <p className="text-gray-700">
@@ -507,7 +507,7 @@ export default function AccessIQCaseStudy() {
                 />
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 max-w-3xl">
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 w-full">
                 <div className="text-sm text-blue-600 mb-2">Research insight</div>
                 <p className="text-gray-700">
                   Showing peer data directly reduced over-broad requests. When employees saw colleagues only had read-only access, they stopped asking for admin, cutting review volume downstream.
@@ -519,7 +519,7 @@ export default function AccessIQCaseStudy() {
               <div className="text-sm text-gray-500 mb-4">06</div>
               <h3 className="text-2xl font-semibold mb-8 text-gray-900">Extend Access</h3>
 
-              <div className="max-w-3xl mb-8">
+              <div className="w-full mb-8">
                 <div className="mb-6">
                   <h4 className="text-sm text-gray-500 mb-2">The Problem</h4>
                   <p className="text-gray-700">
@@ -553,7 +553,7 @@ export default function AccessIQCaseStudy() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 max-w-3xl">
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 w-full">
                 <div className="text-sm text-blue-600 mb-2">Research insight</div>
                 <p className="text-gray-700">
                   The expiry warning inside the modal let employees extend access in under 60 seconds, eliminating the emergency Slack messages managers got every time someone was locked out.
@@ -565,7 +565,7 @@ export default function AccessIQCaseStudy() {
               <div className="text-sm text-gray-500 mb-4">07</div>
               <h3 className="text-2xl font-semibold mb-8 text-gray-900">Request Access</h3>
 
-              <div className="max-w-3xl mb-8">
+              <div className="w-full mb-8">
                 <div className="mb-6">
                   <h4 className="text-sm text-gray-500 mb-2">The Problem</h4>
                   <p className="text-gray-700">
@@ -599,7 +599,7 @@ export default function AccessIQCaseStudy() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 max-w-3xl">
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 w-full">
                 <div className="text-sm text-blue-600 mb-2">Research insight</div>
                 <p className="text-gray-700">
                   The "Why do you need this?" field turns a rubber-stamp approval into a documented decision. When managers see the reason, they make better calls. When auditors ask, the answer is already there.
