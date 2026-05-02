@@ -9,31 +9,6 @@ export default function AccessIQCaseStudy() {
           <Link href="/" className="text-lg font-semibold text-gray-900">
             Sakshee Durshettiwar
           </Link>
-          <div className="hidden md:flex items-center gap-8 text-sm text-gray-600">
-            <Link href="/case-studies" className="hover:text-gray-900 transition-colors">
-              Work
-            </Link>
-            <Link href="/about" className="hover:text-gray-900 transition-colors">
-              About
-            </Link>
-            <Link href="/experiments" className="hover:text-gray-900 transition-colors">
-              Experiments
-            </Link>
-            <a
-              href="/Sakshee Durshettiwar_Resume_Product Designer_B2B SaaS.pdf"
-              className="hover:text-gray-900 transition-colors"
-            >
-              Resume ↗
-            </a>
-            <a
-              href="https://www.linkedin.com/in/sakshee-durshettiwar-product-designer/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-900 transition-colors"
-            >
-              LinkedIn ↗
-            </a>
-          </div>
           <a
             href="mailto:saksheedurshettiwar@gmail.com"
             className="px-4 py-2 bg-black text-white rounded-full text-sm font-medium hover:bg-gray-800 transition-colors"
