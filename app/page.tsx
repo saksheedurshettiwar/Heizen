@@ -131,10 +131,15 @@ export default function AccessIQCaseStudy() {
           {activeTab === "data" && (
             <div className="space-y-12 pt-8">
               <div className="w-full">
-                <h2 className="text-2xl font-semibold mb-4">Data Relationship and Compliance Mapping</h2>
+                <h2 className="text-2xl font-semibold mb-4">Task 2: Data Relationship & Compliance Mapping</h2>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  Enterprise MSP platforms must comply with SOC 2, ISO 27001, and industry-specific regulations. The data model needed to map every compliance requirement to a visible UI element and audit trail.
+                  Map the relationship between Requisition Templates, the Document Wallet, and Compliance Checklists. You must logically architect how these three entities interact without further prompting. Your mapping should respect these core system rules:
                 </p>
+                <ul className="list-disc list-inside space-y-3 text-gray-600 leading-relaxed mb-6">
+                  <li><span className="font-medium text-gray-900">Snapshot Rule:</span> Job postings inherit template data at the moment of creation; subsequent edits to a template do not retroactively affect existing jobs.</li>
+                  <li><span className="font-medium text-gray-900">Immutability Rule:</span> Edits to a checklist template have no effect on ongoing jobs.</li>
+                  <li><span className="font-medium text-gray-900">The Union Rule:</span> A placement's compliance task list is the &quot;Union&quot; of the Candidate's Document Wallet items and the specific Requisition Checklist items.</li>
+                </ul>
               </div>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {[1, 2, 3, 4].map((num) => (
