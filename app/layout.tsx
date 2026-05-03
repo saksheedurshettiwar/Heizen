@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AccessIQ – Sakshee Durshettiwar",
-  description: "Case Study: Cutting Access Risk by 67%",
+  title: "Heizen – Sakshee Durshettiwar",
+  description: "Portfolio: NexusForce Ecosystem Design",
 };
 
 export default function RootLayout({
