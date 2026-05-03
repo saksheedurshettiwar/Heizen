@@ -60,28 +60,106 @@ export default function AccessIQCaseStudy() {
           {activeTab === "overview" && (
             <div className="space-y-12 pt-8">
               <div className="w-full">
-                <h2 className="text-2xl font-semibold mb-4">The Challenge</h2>
+                <h2 className="text-2xl font-semibold mb-4">The Problem</h2>
                 <p className="text-gray-600 leading-relaxed">
-                  Enterprise MSP platforms struggle with fragmented workforce management. NexusForce needed a unified ecosystem that connects compliance data, access controls, and workforce scheduling into one coherent platform.
+                  A hospital posts a job through one system. A staffing agency submits candidates through another. A worker uploads compliance documents through a third. Nobody has visibility into whether these three things actually connect until something goes wrong. A mismatched compliance document. A vendor rate accidentally exposed to a client. A placement created without a checklist attached. These aren't UI problems. They're architecture problems. And they get more expensive the later you catch them.
                 </p>
-              </div>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {[1, 2, 3, 4].map((num) => (
-                  <div key={num} className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-gray-100">
-                    <Image
-                      src={`/case-studies/AccessIQ/Hero Section/0${num}.png`}
-                      alt={`NexusForce Dashboard ${num}`}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                ))}
               </div>
               <div className="w-full">
-                <h2 className="text-2xl font-semibold mb-4">My Role</h2>
+                <h2 className="text-2xl font-semibold mb-4">Why This Matters</h2>
                 <p className="text-gray-600 leading-relaxed">
-                  End-to-end product design: information architecture, compliance data mapping, interaction design, and strategic sprint planning. Delivered in a one-week intensive design sprint with stakeholder alignment at every milestone.
+                  In US healthcare staffing, a non-compliant placement is not a bad hire. It is a patient safety risk. MSP platforms handle millions in billing every month, and a vendor seeing a client's bill rate even once is a contractual breach. Most platforms patch these problems at the component level. A hidden field here, a disabled button there. NexusForce needed them solved at the architecture level, before a single screen was designed.
                 </p>
+              </div>
+              <div className="w-full">
+                <h2 className="text-2xl font-semibold mb-2">The Actors</h2>
+                <p className="text-gray-500 mb-12">Four actors. Four agendas. One platform.</p>
+                <div className="grid grid-cols-4 gap-0 border border-gray-200 rounded-2xl overflow-hidden">
+                  <div className="p-8 border-r border-gray-200">
+                    <div className="flex flex-col h-full justify-between">
+                      <div>
+                        <p className="text-lg font-semibold text-gray-900 mb-1">Hospital</p>
+                        <p className="text-sm text-gray-400">Organisation Portal</p>
+                      </div>
+                      <div className="mt-8">
+                        <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Does</p>
+                        <div className="text-sm text-gray-600 space-y-1">
+                          <p>● Post jobs</p>
+                          <p>● Approve timesheets</p>
+                          <p>● Track compliance</p>
+                        </div>
+                      </div>
+                      <div className="mt-4 pt-4 border-t border-gray-100">
+                        <p className="text-sm text-gray-900">❌ What the agency earns per placement</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-8 border-r border-gray-200">
+                    <div className="flex flex-col h-full justify-between">
+                      <div>
+                        <p className="text-lg font-semibold text-gray-900 mb-1">Staffing Agency</p>
+                        <p className="text-sm text-gray-400">Vendor Portal</p>
+                      </div>
+                      <div className="mt-8">
+                        <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Does</p>
+                        <div className="text-sm text-gray-600 space-y-1">
+                          <p>● Submit candidates</p>
+                          <p>● Browse open jobs</p>
+                          <p>● Track placements</p>
+                        </div>
+                      </div>
+                      <div className="mt-4 pt-4 border-t border-gray-100">
+                        <p className="text-sm text-gray-900">❌ What the hospital is charged per hour</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-8 border-r border-gray-200">
+                    <div className="flex flex-col h-full justify-between">
+                      <div>
+                        <p className="text-lg font-semibold text-gray-900 mb-1">Worker</p>
+                        <p className="text-sm text-gray-400">Candidate Portal</p>
+                      </div>
+                      <div className="mt-8">
+                        <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Does</p>
+                        <div className="text-sm text-gray-600 space-y-1">
+                          <p>● View placement details</p>
+                          <p>● Upload compliance documents</p>
+                          <p>● Submit timesheets</p>
+                        </div>
+                      </div>
+                      <div className="mt-4 pt-4 border-t border-gray-100">
+                        <p className="text-sm text-gray-900">❌ Any rate or billing information</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-8">
+                    <div className="flex flex-col h-full justify-between">
+                      <div>
+                        <p className="text-lg font-semibold text-gray-900 mb-1">StaffLogic</p>
+                        <p className="text-sm text-gray-400">Admin Portal</p>
+                      </div>
+                      <div className="mt-8">
+                        <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Does</p>
+                        <div className="text-sm text-gray-600 space-y-1">
+                          <p>● Configure all portals</p>
+                          <p>● Set MSP and SaaS fees</p>
+                          <p>● Audit every action</p>
+                        </div>
+                      </div>
+                      <div className="mt-4 pt-4 border-t border-gray-100">
+                        <p className="text-sm text-gray-900 font-medium">✅ Everything across all portals</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full">
+                <div className="p-6 border border-gray-200 bg-gray-100 rounded-2xl">
+                  <h2 className="text-2xl font-semibold mb-4">North Star</h2>
+                  <p className="text-gray-600 leading-relaxed">
+                    Can a worker walk into a hospital on day one knowing every document is in order without anyone having to chase them?
+                  </p>
+                </div>
               </div>
             </div>
           )}
@@ -164,58 +242,86 @@ export default function AccessIQCaseStudy() {
               </div>
               <div className="w-full h-px bg-gray-200 mt-12 mb-12"></div>
               <div className="w-full">
-                <h2 className="text-2xl font-semibold mb-8">The relationship between Requisition Templates, the Document Wallet, and Compliance Checklists</h2>
-                <div className="bg-gray-50 rounded-xl border border-gray-200 p-6 md:p-8 font-mono text-sm leading-relaxed overflow-x-auto">
-                  <div className="space-y-6">
-                    <div>
-                      <span className="text-blue-600 font-bold">ADMIN</span> creates ──► <span className="bg-white px-2 py-1 border border-gray-300 rounded text-gray-900">[Compliance Checklist]</span>
-                      <div className="pl-8 mt-2 text-gray-600">
-                        <p>• BLS Cert</p>
-                        <p>• Drug Screen</p>
-                        <p>• State License</p>
-                        <div className="mt-2 text-orange-600 font-medium text-xs">
-                          ← IMMUTABILITY RULE: edit this checklist later? ongoing placements = not affected
-                        </div>
-                      </div>
+                <h2 className="text-2xl font-semibold mb-12">The relationship between Requisition Templates, the Document Wallet, and Compliance Checklists</h2>
+                <div className="grid md:grid-cols-5 gap-6">
+                  {/* Card 1: Admin */}
+                  <div className="p-5 border border-gray-200 rounded-2xl">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Admin</div>
+                    <div className="inline-block px-3 py-1.5 bg-gray-100 rounded-full text-sm font-medium mb-4">Compliance Checklist</div>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>BLS Cert</li>
+                      <li>Drug Screen</li>
+                      <li>State License</li>
+                    </ul>
+                    <div className="mt-4 pt-4 border-t border-gray-100">
+                      <p className="text-xs text-gray-400 italic">IMMUTABILITY RULE: edit this checklist later? ongoing placements = not affected</p>
                     </div>
-                    <div className="pl-8 text-gray-400 text-xs">│ org attaches it ▼</div>
-                    <div>
-                      <span className="text-purple-600 font-bold">ORG</span> creates ────► <span className="bg-white px-2 py-1 border border-gray-300 rounded text-gray-900">[Requisition Template]</span>
-                      <div className="pl-8 mt-2 text-gray-600">
-                        <p>• ICU Nurse · Day Shift</p>
-                        <p>• $54/hr · SF Location</p>
-                        <p>• + checklist attached</p>
-                        <div className="mt-2 text-orange-600 font-medium text-xs">
-                          ← SNAPSHOT RULE: edit this template later? existing jobs = not affected
-                        </div>
-                      </div>
+                    <div className="mt-3 flex justify-center">
+                      <svg className="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                      </svg>
                     </div>
-                    <div className="pl-8 text-gray-400 text-xs">│ org posts job ▼</div>
-                    <div className="pl-8">
-                      <span className="bg-white px-2 py-1 border border-gray-300 rounded text-gray-900">[Job Posting]</span>
-                      <p className="mt-2 text-gray-600">(template + checklist both frozen here)</p>
+                  </div>
+
+                  {/* Card 2: Org */}
+                  <div className="p-5 border border-gray-200 rounded-2xl">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Org</div>
+                    <div className="inline-block px-3 py-1.5 bg-gray-100 rounded-full text-sm font-medium mb-4">Requisition Template</div>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>ICU Nurse · Day Shift</li>
+                      <li>$54/hr · SF Location</li>
+                      <li>+ checklist attached</li>
+                    </ul>
+                    <div className="mt-4 pt-4 border-t border-gray-100">
+                      <p className="text-xs text-gray-400 italic">SNAPSHOT RULE: edit this template later? existing jobs = not affected</p>
                     </div>
-                    <div className="pl-8 text-gray-400 text-xs">│ vendor submits candidate / candidate gets placed ▼</div>
-                    <div>
-                      <span className="text-green-600 font-bold">CANDIDATE</span> owns ──► <span className="bg-white px-2 py-1 border border-gray-300 rounded text-gray-900">[Document Wallet]</span>
-                      <div className="pl-8 mt-2 text-gray-600">
-                        <p>• BLS Cert ✓</p>
-                        <p>• Driver's License ✓</p>
-                        <p>• ACLS Cert ✓</p>
-                        <div className="mt-2 text-orange-600 font-medium text-xs">
-                          ← UNION RULE: wallet docs + job checklist combined into one list (dedup applied)
-                        </div>
-                      </div>
+                    <div className="mt-3 flex justify-center">
+                      <svg className="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                      </svg>
                     </div>
-                    <div className="pl-8 text-gray-400 text-xs">▼</div>
-                    <div className="pl-8">
-                      <span className="bg-blue-100 px-2 py-1 border border-blue-300 rounded text-blue-900 font-medium">[Placement Task List]</span>
-                      <div className="pl-8 mt-2 space-y-1">
-                        <p className="text-green-600">✓ BLS Cert — in wallet, approved</p>
-                        <p className="text-green-600">✓ Driver's License — in wallet, approved</p>
-                        <p className="text-red-600">○ Drug Screen — required, not uploaded</p>
-                        <p className="text-red-600">○ State License — required, not uploaded</p>
-                      </div>
+                  </div>
+
+                  {/* Card 3: Job Posting */}
+                  <div className="p-5 border border-gray-200 rounded-2xl">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Org posts</div>
+                    <div className="inline-block px-3 py-1.5 bg-gray-100 rounded-full text-sm font-medium mb-4">Job Posting</div>
+                    <p className="text-sm text-gray-400 italic">(template + checklist both frozen here)</p>
+                    <div className="mt-3 flex justify-center">
+                      <svg className="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
+                  </div>
+
+                  {/* Card 4: Candidate */}
+                  <div className="p-5 border border-gray-200 rounded-2xl">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Candidate</div>
+                    <div className="inline-block px-3 py-1.5 bg-gray-100 rounded-full text-sm font-medium mb-4">Document Wallet</div>
+                    <ul className="text-sm text-gray-600 space-y-1">
+                      <li>BLS Cert ✓</li>
+                      <li>Driver's License ✓</li>
+                      <li>ACLS Cert ✓</li>
+                    </ul>
+                    <div className="mt-4 pt-4 border-t border-gray-100">
+                      <p className="text-xs text-gray-400 italic">UNION RULE: wallet docs + job checklist combined into one list (dedup applied)</p>
+                    </div>
+                    <div className="mt-3 flex justify-center">
+                      <svg className="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
+                  </div>
+
+                  {/* Card 5: Result */}
+                  <div className="p-5 border border-gray-900 bg-gray-900 rounded-2xl">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-3">Result</div>
+                    <div className="inline-block px-3 py-1.5 bg-gray-800 rounded-full text-sm font-medium text-white mb-4">Placement Task List</div>
+                    <div className="space-y-1 text-sm">
+                      <p className="text-gray-300">BLS Cert — in wallet, approved</p>
+                      <p className="text-gray-300">Driver's License — in wallet, approved</p>
+                      <p className="text-gray-500">Drug Screen — required, not uploaded</p>
+                      <p className="text-gray-500">State License — required, not uploaded</p>
                     </div>
                   </div>
                 </div>
