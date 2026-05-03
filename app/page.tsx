@@ -243,85 +243,105 @@ export default function AccessIQCaseStudy() {
               <div className="w-full h-px bg-gray-200 mt-12 mb-12"></div>
               <div className="w-full">
                 <h2 className="text-2xl font-semibold mb-12">The relationship between Requisition Templates, the Document Wallet, and Compliance Checklists</h2>
-                <div className="grid md:grid-cols-5 gap-6">
-                  {/* Card 1: Admin */}
-                  <div className="p-5 border border-gray-200 rounded-2xl">
-                    <div className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Admin</div>
-                    <div className="inline-block px-3 py-1.5 bg-gray-100 rounded-full text-sm font-medium mb-4">Compliance Checklist</div>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      <li>BLS Cert</li>
-                      <li>Drug Screen</li>
-                      <li>State License</li>
-                    </ul>
-                    <div className="mt-4 pt-4 border-t border-gray-100">
-                      <p className="text-xs text-gray-400 italic">IMMUTABILITY RULE: edit this checklist later? ongoing placements = not affected</p>
+                <div className="space-y-0">
+                  {/* Step 1: Admin */}
+                  <div className="flex items-center gap-6 py-6 border-b border-gray-200">
+                    <div className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center flex-shrink-0">
+                      <span className="text-sm font-medium text-gray-500">1</span>
                     </div>
-                    <div className="mt-3 flex justify-center">
-                      <svg className="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                      </svg>
-                    </div>
-                  </div>
-
-                  {/* Card 2: Org */}
-                  <div className="p-5 border border-gray-200 rounded-2xl">
-                    <div className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Org</div>
-                    <div className="inline-block px-3 py-1.5 bg-gray-100 rounded-full text-sm font-medium mb-4">Requisition Template</div>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      <li>ICU Nurse · Day Shift</li>
-                      <li>$54/hr · SF Location</li>
-                      <li>+ checklist attached</li>
-                    </ul>
-                    <div className="mt-4 pt-4 border-t border-gray-100">
-                      <p className="text-xs text-gray-400 italic">SNAPSHOT RULE: edit this template later? existing jobs = not affected</p>
-                    </div>
-                    <div className="mt-3 flex justify-center">
-                      <svg className="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                      </svg>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-3 mb-2">
+                        <span className="text-xs font-semibold uppercase tracking-wider text-gray-400">Admin</span>
+                        <span className="text-gray-300">creates</span>
+                        <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm font-medium">Compliance Checklist</span>
+                      </div>
+                      <div className="flex flex-col md:flex-row md:items-center md:gap-8">
+                        <ul className="text-sm text-gray-600 space-y-0.5">
+                          <li>BLS Cert</li>
+                          <li>Drug Screen</li>
+                          <li>State License</li>
+                        </ul>
+                        <p className="text-xs text-gray-400 italic mt-2 md:mt-0 md:ml-auto">IMMUTABILITY RULE: edit this checklist later? ongoing placements = not affected</p>
+                      </div>
                     </div>
                   </div>
 
-                  {/* Card 3: Job Posting */}
-                  <div className="p-5 border border-gray-200 rounded-2xl">
-                    <div className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Org posts</div>
-                    <div className="inline-block px-3 py-1.5 bg-gray-100 rounded-full text-sm font-medium mb-4">Job Posting</div>
-                    <p className="text-sm text-gray-400 italic">(template + checklist both frozen here)</p>
-                    <div className="mt-3 flex justify-center">
-                      <svg className="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                      </svg>
+                  {/* Step 2: Org */}
+                  <div className="flex items-center gap-6 py-6 border-b border-gray-200">
+                    <div className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center flex-shrink-0">
+                      <span className="text-sm font-medium text-gray-500">2</span>
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-3 mb-2">
+                        <span className="text-xs font-semibold uppercase tracking-wider text-gray-400">Org</span>
+                        <span className="text-gray-300">creates</span>
+                        <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm font-medium">Requisition Template</span>
+                      </div>
+                      <div className="flex flex-col md:flex-row md:items-center md:gap-8">
+                        <ul className="text-sm text-gray-600 space-y-0.5">
+                          <li>ICU Nurse · Day Shift</li>
+                          <li>$54/hr · SF Location</li>
+                          <li>+ checklist attached</li>
+                        </ul>
+                        <p className="text-xs text-gray-400 italic mt-2 md:mt-0 md:ml-auto">SNAPSHOT RULE: edit this template later? existing jobs = not affected</p>
+                      </div>
                     </div>
                   </div>
 
-                  {/* Card 4: Candidate */}
-                  <div className="p-5 border border-gray-200 rounded-2xl">
-                    <div className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Candidate</div>
-                    <div className="inline-block px-3 py-1.5 bg-gray-100 rounded-full text-sm font-medium mb-4">Document Wallet</div>
-                    <ul className="text-sm text-gray-600 space-y-1">
-                      <li>BLS Cert ✓</li>
-                      <li>Driver's License ✓</li>
-                      <li>ACLS Cert ✓</li>
-                    </ul>
-                    <div className="mt-4 pt-4 border-t border-gray-100">
-                      <p className="text-xs text-gray-400 italic">UNION RULE: wallet docs + job checklist combined into one list (dedup applied)</p>
+                  {/* Step 3: Job Posting */}
+                  <div className="flex items-center gap-6 py-6 border-b border-gray-200">
+                    <div className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center flex-shrink-0">
+                      <span className="text-sm font-medium text-gray-500">3</span>
                     </div>
-                    <div className="mt-3 flex justify-center">
-                      <svg className="w-4 h-4 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-                      </svg>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-3 mb-2">
+                        <span className="text-xs font-semibold uppercase tracking-wider text-gray-400">Org posts</span>
+                        <span className="text-gray-300">→</span>
+                        <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm font-medium">Job Posting</span>
+                      </div>
+                      <p className="text-sm text-gray-400 italic">(template + checklist both frozen here)</p>
                     </div>
                   </div>
 
-                  {/* Card 5: Result */}
-                  <div className="p-5 border border-gray-900 bg-gray-900 rounded-2xl">
-                    <div className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-3">Result</div>
-                    <div className="inline-block px-3 py-1.5 bg-gray-800 rounded-full text-sm font-medium text-white mb-4">Placement Task List</div>
-                    <div className="space-y-1 text-sm">
-                      <p className="text-gray-300">BLS Cert — in wallet, approved</p>
-                      <p className="text-gray-300">Driver's License — in wallet, approved</p>
-                      <p className="text-gray-500">Drug Screen — required, not uploaded</p>
-                      <p className="text-gray-500">State License — required, not uploaded</p>
+                  {/* Step 4: Candidate */}
+                  <div className="flex items-center gap-6 py-6 border-b border-gray-200">
+                    <div className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center flex-shrink-0">
+                      <span className="text-sm font-medium text-gray-500">4</span>
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-3 mb-2">
+                        <span className="text-xs font-semibold uppercase tracking-wider text-gray-400">Candidate</span>
+                        <span className="text-gray-300">owns</span>
+                        <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-sm font-medium">Document Wallet</span>
+                      </div>
+                      <div className="flex flex-col md:flex-row md:items-center md:gap-8">
+                        <ul className="text-sm text-gray-600 space-y-0.5">
+                          <li>BLS Cert ✓</li>
+                          <li>Driver's License ✓</li>
+                          <li>ACLS Cert ✓</li>
+                        </ul>
+                        <p className="text-xs text-gray-400 italic mt-2 md:mt-0 md:ml-auto">UNION RULE: wallet docs + job checklist combined into one list (dedup applied)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Step 5: Result */}
+                  <div className="flex items-center gap-6 py-6">
+                    <div className="w-12 h-12 rounded-full bg-gray-900 flex items-center justify-center flex-shrink-0">
+                      <span className="text-sm font-medium text-white">5</span>
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-3 mb-2">
+                        <span className="text-xs font-semibold uppercase tracking-wider text-gray-400">Result</span>
+                        <span className="text-gray-300">→</span>
+                        <span className="inline-block px-3 py-1 bg-gray-900 text-white rounded-full text-sm font-medium">Placement Task List</span>
+                      </div>
+                      <div className="space-y-0.5 text-sm">
+                        <p className="text-gray-600">BLS Cert — in wallet, approved</p>
+                        <p className="text-gray-600">Driver's License — in wallet, approved</p>
+                        <p className="text-gray-400">Drug Screen — required, not uploaded</p>
+                        <p className="text-gray-400">State License — required, not uploaded</p>
+                      </div>
                     </div>
                   </div>
                 </div>
