@@ -585,6 +585,27 @@ export default function AccessIQCaseStudy() {
                   </div>
                   <div className="h-px bg-gray-200"></div>
                   <h3 className="text-[18px] font-semibold text-gray-900 py-4">2. Detail your strategy for prioritisation, how you would handle &quot;Non-Goals&quot; (like external HR integrations or custom roles).</h3>
+                  <div className="px-6 pb-6 text-gray-600 leading-relaxed space-y-3">
+                    <p>Prioritisation in a one-week sprint is not about what is important. Everything on the brief is important. It is about what blocks development if it is missing, and what can be added later without touching existing work.</p>
+                    <div className="grid grid-cols-3 gap-4 my-3 text-sm">
+                      <div className="p-3 bg-gray-100 rounded-xl">
+                        <p className="font-semibold text-gray-900 mb-1">Ships hi-fi</p>
+                        <p className="text-gray-600">Wizard · Org Portal · Component library</p>
+                      </div>
+                      <div className="p-3 bg-gray-100 rounded-xl">
+                        <p className="font-semibold text-gray-900 mb-1">Ships specified</p>
+                        <p className="text-gray-600">Vendor · Candidate · Admin portals</p>
+                      </div>
+                      <div className="p-3 bg-gray-100 rounded-xl">
+                        <p className="font-semibold text-gray-900 mb-1">Does not ship</p>
+                        <p className="text-gray-600">HR integrations · Custom roles · Reporting</p>
+                      </div>
+                    </div>
+                    <p>The load-bearing decisions ship hi-fi without negotiation. The Requisition Template wizard, Org Portal core modules, the component library, IA documentation, data rules spec, and the automation trigger map. If any of these are wrong or missing, development builds on an unstable foundation.</p>
+                    <p>Vendor, Candidate, and Admin portals ship fully specified and precisely annotated. Not every screen needs to be hi-fi for development to start building it correctly.</p>
+                    <p>External HR integrations, custom role builder, full reporting, and invoice dispute handling are out of scope for Phase 1. But they are not ignored. Each gets a stub in the navigation with a Phase 2 label. If a nav item is absent now and added later, development touches navigation code twice. Stubbing it once costs 15 minutes and saves a future sprint.</p>
+                    <p>Non-goals are not failures. They are decisions. The difference between a designer who ran out of time and a designer who made a deliberate call is documentation. Every non-goal is named, reasoned, and written into the handoff before delivery.</p>
+                  </div>
                   <div className="h-px bg-gray-200"></div>
                   <h3 className="text-[18px] font-semibold text-gray-900 py-4">3. How you would ensure that &quot;Non-Negotiable Automations&quot; (like automatic placement creation upon offer acceptance) are clearly accounted for in the UI.</h3>
                 </div>
