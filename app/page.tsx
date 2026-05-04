@@ -367,7 +367,7 @@ export default function AccessIQCaseStudy() {
                     </p>
                   </div>
                   <div className="space-y-6">
-                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                    <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 1/Step 1 - 1.png"
                         alt="Step 1: Type Selection Mock 1"
@@ -376,7 +376,7 @@ export default function AccessIQCaseStudy() {
                         className="w-full h-auto"
                       />
                     </div>
-                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                    <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 1/Step 1 - 2.png"
                         alt="Step 1: Type Selection Mock 2"
@@ -403,7 +403,7 @@ export default function AccessIQCaseStudy() {
                     </p>
                   </div>
                   <div className="space-y-6">
-                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                    <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 2/Step 2 - 01.png"
                         alt="Step 2: Details Mock 1"
@@ -412,7 +412,7 @@ export default function AccessIQCaseStudy() {
                         className="w-full h-auto"
                       />
                     </div>
-                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                    <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 2/Step 2 - 02.png"
                         alt="Step 2: Details Mock 2"
@@ -438,7 +438,7 @@ export default function AccessIQCaseStudy() {
                     </p>
                   </div>
                   <div className="space-y-6">
-                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                    <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 3/Step 3 - 01.png"
                         alt="Step 3: Shift & Schedule Mock 1"
@@ -447,7 +447,7 @@ export default function AccessIQCaseStudy() {
                         className="w-full h-auto"
                       />
                     </div>
-                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                    <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 3/Step 3 - 02.png"
                         alt="Step 3: Shift & Schedule Mock 2"
@@ -473,7 +473,7 @@ export default function AccessIQCaseStudy() {
                     </p>
                   </div>
                   <div className="space-y-6">
-                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                    <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 4/Step 4 - 01.png"
                         alt="Step 4: Compensation Mock 1"
@@ -482,7 +482,7 @@ export default function AccessIQCaseStudy() {
                         className="w-full h-auto"
                       />
                     </div>
-                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                    <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 4/Step 4 - 02.png"
                         alt="Step 4: Compensation Mock 2"
@@ -508,7 +508,7 @@ export default function AccessIQCaseStudy() {
                     </p>
                   </div>
                   <div className="space-y-6">
-                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                    <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 5/Step 5 - 01.png"
                         alt="Step 5: Compliance & Submission Mock 1"
@@ -517,7 +517,7 @@ export default function AccessIQCaseStudy() {
                         className="w-full h-auto"
                       />
                     </div>
-                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                    <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 5/Step 5 - 02.png"
                         alt="Step 5: Compliance & Submission Mock 2"
@@ -526,7 +526,7 @@ export default function AccessIQCaseStudy() {
                         className="w-full h-auto"
                       />
                     </div>
-                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                    <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 5/Step 5 - 03.png"
                         alt="Step 5: Compliance & Submission Mock 3"
@@ -535,7 +535,7 @@ export default function AccessIQCaseStudy() {
                         className="w-full h-auto"
                       />
                     </div>
-                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                    <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 5/Step 5 - 04.png"
                         alt="Step 5: Compliance & Submission Mock 4"
