@@ -367,7 +367,7 @@ export default function AccessIQCaseStudy() {
                     </p>
                   </div>
                   <div className="space-y-6">
-                    <div className="relative w-full border border-gray-200 rounded-lg overflow-hidden">
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 1/Step 1 - 1.png"
                         alt="Step 1: Type Selection Mock 1"
@@ -376,7 +376,7 @@ export default function AccessIQCaseStudy() {
                         className="w-full h-auto"
                       />
                     </div>
-                    <div className="relative w-full border border-gray-200 rounded-lg overflow-hidden">
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 1/Step 1 - 2.png"
                         alt="Step 1: Type Selection Mock 2"
@@ -403,7 +403,7 @@ export default function AccessIQCaseStudy() {
                     </p>
                   </div>
                   <div className="space-y-6">
-                    <div className="relative w-full border border-gray-200 rounded-lg overflow-hidden">
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 2/Details.png"
                         alt="Step 2: Details Mock 1"
@@ -412,7 +412,7 @@ export default function AccessIQCaseStudy() {
                         className="w-full h-auto"
                       />
                     </div>
-                    <div className="relative w-full border border-gray-200 rounded-lg overflow-hidden">
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
                       <Image
                         src="/Interaction Design/Step 2/Details-1.png"
                         alt="Step 2: Details Mock 2"
