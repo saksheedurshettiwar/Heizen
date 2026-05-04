@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,15 +14,13 @@ const tabs = [
 
 export default function AccessIQCaseStudy() {
   const [activeTab, setActiveTab] = useState("overview");
+  const tabsRef = useRef<HTMLDivElement>(null);
 
   const switchTab = (tabId: string) => {
     setActiveTab(tabId);
-    const navEl = document.querySelector("nav");
-    if (navEl) {
-      window.scrollTo({
-        top: navEl.getBoundingClientRect().bottom + window.scrollY - 80,
-        behavior: "smooth",
-      });
+    if (tabsRef.current) {
+      const top = tabsRef.current.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({ top, behavior: "smooth" });
     }
   };
 
@@ -49,7 +47,7 @@ export default function AccessIQCaseStudy() {
           </h1>
         </section>
 
-        <section className="w-full px-6 md:px-12 lg:px-24 pt-3 pb-3 sticky top-[64px] z-40 bg-white">
+        <section ref={tabsRef} className="w-full px-6 md:px-12 lg:px-24 pt-3 pb-3 sticky top-[64px] z-40 bg-white">
           <div className="flex flex-wrap gap-3">
             {tabs.map((tab) => (
               <button
