@@ -608,7 +608,35 @@ export default function AccessIQCaseStudy() {
                   </div>
                   <div className="h-px bg-gray-200"></div>
                   <h3 className="text-[18px] font-semibold text-gray-900 py-4">3. How you would ensure that &quot;Non-Negotiable Automations&quot; (like automatic placement creation upon offer acceptance) are clearly accounted for in the UI.</h3>
-                </div>
+                  <div className="px-6 pb-6 text-gray-600 leading-relaxed space-y-3">
+                    <p>Automations that fire without a human click are invisible by default. Invisible system actions create confusion, distrust, and support tickets. The design responsibility is to make every automation visible, traceable, and narrated in the UI at the exact moment it fires.</p>
+                    <p>Three automations are accounted for in NexusForce. One ships in Phase 1. Two are designed now and built in Phase 2.</p>
+                    <div className="mt-4 space-y-6">
+                      <div>
+                        <p className="font-semibold text-gray-900 mb-3">Phase 1</p>
+                        <div className="bg-gray-100 rounded-xl p-4 text-sm space-y-2 mb-4">
+                          <p><span className="font-medium">Trigger:</span> Candidate accepts an offer</p>
+                          <p><span className="font-medium">Action:</span> Placement record created automatically</p>
+                        </div>
+                        <p>The UI narrates this in three places. A toast notification confirms the action in the moment. The placement list surfaces the new record with an AUTO badge so no one wonders where it came from. The audit log records SYSTEM as the actor with a timestamp and the trigger event — not the user, not Operations, the system.</p>
+                      </div>
+                      <div>
+                        <p className="font-semibold text-gray-900 mb-3">Phase 2</p>
+                        <div className="bg-gray-100 rounded-xl p-4 text-sm space-y-4">
+                          <div>
+                            <p><span className="font-medium">Trigger:</span> Scheduled activation date arrives</p>
+                            <p><span className="font-medium">Action:</span> Job moves from Scheduled to Active · Vendor notifications fire</p>
+                          </div>
+                          <div className="pt-3 border-t border-gray-200">
+                            <p><span className="font-medium">Trigger:</span> Document approved in candidate wallet</p>
+                            <p><span className="font-medium">Action:</span> Matching compliance items marked Satisfied across all active placements automatically</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p>Both are designed in Phase 1 and flagged in the handoff. Development knows they are coming. The UI surfaces entry points for them before they are built.</p>
+                    <p className="font-semibold text-gray-900 mt-4">The rule across all three: if the system does something without a human click, the UI must explain what happened, why it happened, and when. Silent automations are a design failure, not a development oversight.</p>
+                  </div>
               </div>
             </div>
           )}
