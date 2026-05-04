@@ -566,127 +566,132 @@ export default function AccessIQCaseStudy() {
           )}
 
           {activeTab === "strategic" && (
-            <div className="pt-8">
+            <div className="pt-16">
 
               {/* Q1 */}
-              <div className="grid md:grid-cols-12 gap-8 pb-12 mb-12 border-b border-gray-200">
-                <div className="md:col-span-4">
-                  <div className="flex items-baseline gap-3 mb-2">
-                    <span className="text-5xl font-bold text-gray-200">01</span>
+              <div className="mb-32">
+                <div className="flex items-start gap-8 md:gap-16 mb-16">
+                  <span className="text-[120px] md:text-[180px] font-bold text-gray-100 leading-none tracking-tighter flex-shrink-0 -mt-4">01</span>
+                  <div className="pt-6 md:pt-8">
+                    <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-tight max-w-2xl">How would you approach the design process if the deadline for the entire portal was strictly one week?</h3>
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 leading-snug">How would you approach the design process if the deadline for the entire portal was strictly one week?</h3>
                 </div>
-                <div className="md:col-span-8 space-y-8">
-                  <p className="text-[15px] text-gray-600 leading-relaxed">A one-week deadline does not compress the process. It forces a sequencing decision that most designers avoid: what does development need first to never be blocked, and what can be precisely specified instead of fully designed without slowing anything down.</p>
-                  <p className="text-[15px] text-gray-600 leading-relaxed">The week splits into three phases.</p>
-                  <div className="space-y-5">
-                    <div className="flex gap-4">
-                      <span className="w-1.5 h-1.5 rounded-full bg-gray-900 mt-2 flex-shrink-0"></span>
-                      <div>
-                        <p className="text-[15px] font-semibold text-gray-900 mb-1">Foundation first</p>
-                        <p className="text-[15px] text-gray-600 leading-relaxed">IA, role permissions, and data rules are locked in writing before any screen is opened. These are the decisions that cause full redesigns if they shift mid-week.</p>
-                      </div>
+                <div className="md:pl-40 max-w-3xl space-y-8">
+                  <p className="text-lg text-gray-600 leading-relaxed">A one-week deadline does not compress the process. It forces a sequencing decision that most designers avoid: what does development need first to never be blocked, and what can be precisely specified instead of fully designed without slowing anything down.</p>
+                  <p className="text-lg text-gray-600 leading-relaxed">The week splits into three phases.</p>
+                  <div className="space-y-12 pt-8">
+                    <div>
+                      <p className="text-base font-semibold text-gray-900 mb-2">Foundation first</p>
+                      <p className="text-[15px] text-gray-600 leading-relaxed">IA, role permissions, and data rules are locked in writing before any screen is opened. These are the decisions that cause full redesigns if they shift mid-week.</p>
                     </div>
-                    <div className="flex gap-4">
-                      <span className="w-1.5 h-1.5 rounded-full bg-gray-900 mt-2 flex-shrink-0"></span>
-                      <div>
-                        <p className="text-[15px] font-semibold text-gray-900 mb-1">Critical path hi-fi</p>
-                        <p className="text-[15px] text-gray-600 leading-relaxed">The Requisition Template wizard is the entry point to everything. Designing it completely generates the component library as a byproduct. Development starts building by end of Day 2 while design continues.</p>
-                      </div>
+                    <div>
+                      <p className="text-base font-semibold text-gray-900 mb-2">Critical path hi-fi</p>
+                      <p className="text-[15px] text-gray-600 leading-relaxed">The Requisition Template wizard is the entry point to everything. Designing it completely generates the component library as a byproduct. Development starts building by end of Day 2 while design continues.</p>
                     </div>
-                    <div className="flex gap-4">
-                      <span className="w-1.5 h-1.5 rounded-full bg-gray-900 mt-2 flex-shrink-0"></span>
-                      <div>
-                        <p className="text-[15px] font-semibold text-gray-900 mb-1">Assembly over redesign</p>
-                        <p className="text-[15px] text-gray-600 leading-relaxed">Vendor Portal shares 70% of Org Portal components. Candidate Portal is three screens. Admin Portal is internal tooling — a precise annotated spec ships faster than rushed hi-fi.</p>
-                      </div>
+                    <div>
+                      <p className="text-base font-semibold text-gray-900 mb-2">Assembly over redesign</p>
+                      <p className="text-[15px] text-gray-600 leading-relaxed">Vendor Portal shares 70% of Org Portal components. Candidate Portal is three screens. Admin Portal is internal tooling — a precise annotated spec ships faster than rushed hi-fi.</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               {/* Q2 */}
-              <div className="grid md:grid-cols-12 gap-8 pb-12 mb-12 border-b border-gray-200">
-                <div className="md:col-span-4">
-                  <div className="flex items-baseline gap-3 mb-2">
-                    <span className="text-5xl font-bold text-gray-200">02</span>
+              <div className="mb-32">
+                <div className="flex items-start gap-8 md:gap-16 mb-16">
+                  <span className="text-[120px] md:text-[180px] font-bold text-gray-100 leading-none tracking-tighter flex-shrink-0 -mt-4">02</span>
+                  <div className="pt-6 md:pt-8">
+                    <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-tight max-w-2xl">Detail your strategy for prioritisation and how you would handle Non-Goals.</h3>
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 leading-snug">Detail your strategy for prioritisation and how you would handle Non-Goals.</h3>
                 </div>
-                <div className="md:col-span-8 space-y-8">
-                  <p className="text-[15px] text-gray-600 leading-relaxed">Prioritisation in a one-week sprint is not about what is important. Everything on the brief is important. It is about what blocks development if it is missing, and what can be added later without touching existing work.</p>
-                  <div className="grid grid-cols-3 gap-3">
-                    <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
-                      <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-1">Ships hi-fi</p>
-                      <p className="text-sm text-gray-700">Wizard · Org Portal · Component library</p>
+                <div className="md:pl-40 max-w-3xl space-y-10">
+                  <p className="text-lg text-gray-600 leading-relaxed">Prioritisation in a one-week sprint is not about what is important. Everything on the brief is important. It is about what blocks development if it is missing, and what can be added later without touching existing work.</p>
+                  <div className="grid grid-cols-3 gap-0 border-t border-b border-gray-200 py-8">
+                    <div className="pr-6">
+                      <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Ships hi-fi</p>
+                      <p className="text-sm text-gray-700 leading-snug">Wizard · Org Portal · Component library</p>
                     </div>
-                    <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
-                      <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-1">Ships specified</p>
-                      <p className="text-sm text-gray-700">Vendor · Candidate · Admin portals</p>
+                    <div className="px-6 border-l border-gray-200">
+                      <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Ships specified</p>
+                      <p className="text-sm text-gray-700 leading-snug">Vendor · Candidate · Admin portals</p>
                     </div>
-                    <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
-                      <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-1">Does not ship</p>
-                      <p className="text-sm text-gray-700">HR integrations · Custom roles · Reporting</p>
+                    <div className="pl-6 border-l border-gray-200">
+                      <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Does not ship</p>
+                      <p className="text-sm text-gray-700 leading-snug">HR integrations · Custom roles · Reporting</p>
                     </div>
                   </div>
                   <p className="text-[15px] text-gray-600 leading-relaxed">External HR integrations, custom role builder, full reporting, and invoice dispute handling are out of scope for Phase 1. Each gets a stub in the navigation with a Phase 2 label. Stubbing once costs 15 minutes and saves a future sprint.</p>
-                  <div className="bg-gray-50 border-l-2 border-gray-900 p-5">
-                    <p className="text-[15px] font-medium text-gray-900 leading-relaxed">Non-goals are not failures. They are decisions. Every non-goal is named, reasoned, and written into the handoff before delivery.</p>
+                  <div className="pt-4">
+                    <p className="text-xl font-medium text-gray-900 leading-relaxed">Non-goals are not failures. They are decisions. Every non-goal is named, reasoned, and written into the handoff before delivery.</p>
                   </div>
                 </div>
               </div>
 
               {/* Q3 */}
-              <div className="grid md:grid-cols-12 gap-8">
-                <div className="md:col-span-4">
-                  <div className="flex items-baseline gap-3 mb-2">
-                    <span className="text-5xl font-bold text-gray-200">03</span>
+              <div className="mb-24">
+                <div className="flex items-start gap-8 md:gap-16 mb-16">
+                  <span className="text-[120px] md:text-[180px] font-bold text-gray-100 leading-none tracking-tighter flex-shrink-0 -mt-4">03</span>
+                  <div className="pt-6 md:pt-8">
+                    <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-tight max-w-2xl">How you would ensure that Non-Negotiable Automations are clearly accounted for in the UI.</h3>
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 leading-snug">How you would ensure that Non-Negotiable Automations are clearly accounted for in the UI.</h3>
                 </div>
-                <div className="md:col-span-8 space-y-8">
-                  <p className="text-[15px] text-gray-600 leading-relaxed">Automations that fire without a human click are invisible by default. Invisible system actions create confusion, distrust, and support tickets. The design responsibility is to make every automation visible, traceable, and narrated in the UI at the exact moment it fires.</p>
-                  <p className="text-[15px] text-gray-600 leading-relaxed">Three automations are accounted for. One ships in Phase 1. Two are designed now and built in Phase 2.</p>
-                  <div className="space-y-6">
-                    <div className="pl-5 border-l-2 border-gray-900">
-                      <div className="flex items-center gap-2 mb-4">
-                        <span className="text-sm font-bold text-gray-900 uppercase tracking-wide">Phase 1</span>
+                <div className="md:pl-40 max-w-3xl space-y-10">
+                  <p className="text-lg text-gray-600 leading-relaxed">Automations that fire without a human click are invisible by default. Invisible system actions create confusion, distrust, and support tickets. The design responsibility is to make every automation visible, traceable, and narrated in the UI at the exact moment it fires.</p>
+                  <p className="text-lg text-gray-600 leading-relaxed">Three automations are accounted for. One ships in Phase 1. Two are designed now and built in Phase 2.</p>
+
+                  <div className="space-y-10 pt-8">
+                    <div>
+                      <div className="flex items-baseline gap-3 mb-6">
+                        <span className="text-base font-bold text-gray-900 uppercase tracking-wide">Phase 1</span>
                         <span className="text-xs text-gray-400 font-medium">ships now</span>
                       </div>
-                      <div className="bg-gray-50 rounded-xl p-5 text-sm space-y-2 mb-4">
-                        <p><span className="font-medium text-gray-400 text-xs uppercase tracking-wider">Trigger</span></p>
-                        <p className="text-gray-900">Candidate accepts an offer</p>
-                        <div className="h-px bg-gray-200 my-2"></div>
-                        <p><span className="font-medium text-gray-400 text-xs uppercase tracking-wider">Action</span></p>
-                        <p className="text-gray-900">Placement record created automatically</p>
+                      <div className="flex gap-12 md:gap-16 text-sm mb-6">
+                        <div className="flex-1">
+                          <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Trigger</p>
+                          <p className="text-gray-900">Candidate accepts an offer</p>
+                        </div>
+                        <div className="flex-1">
+                          <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Action</p>
+                          <p className="text-gray-900">Placement record created automatically</p>
+                        </div>
                       </div>
                       <p className="text-[15px] text-gray-600 leading-relaxed">The UI narrates this in three places. A toast notification confirms the action in the moment. The placement list surfaces the new record with an AUTO badge. The audit log records SYSTEM as the actor with a timestamp and the trigger event.</p>
                     </div>
-                    <div className="pl-5 border-l-2 border-gray-300">
-                      <div className="flex items-center gap-2 mb-4">
-                        <span className="text-sm font-bold text-gray-900 uppercase tracking-wide">Phase 2</span>
+
+                    <div className="h-px bg-gray-200"></div>
+
+                    <div>
+                      <div className="flex items-baseline gap-3 mb-6">
+                        <span className="text-base font-bold text-gray-900 uppercase tracking-wide">Phase 2</span>
                         <span className="text-xs text-gray-400 font-medium">designed now, built later</span>
                       </div>
-                      <div className="space-y-4 mb-4">
-                        <div className="bg-gray-50 rounded-xl p-5 text-sm space-y-2">
-                          <p><span className="font-medium text-gray-400 text-xs uppercase tracking-wider">Trigger</span></p>
-                          <p className="text-gray-900">Scheduled activation date arrives</p>
-                          <div className="h-px bg-gray-200 my-2"></div>
-                          <p><span className="font-medium text-gray-400 text-xs uppercase tracking-wider">Action</span></p>
-                          <p className="text-gray-900">Job moves from Scheduled to Active · Vendor notifications fire</p>
+                      <div className="space-y-8 mb-6">
+                        <div className="flex gap-12 md:gap-16 text-sm">
+                          <div className="flex-1">
+                            <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Trigger</p>
+                            <p className="text-gray-900">Scheduled activation date arrives</p>
+                          </div>
+                          <div className="flex-1">
+                            <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Action</p>
+                            <p className="text-gray-900">Job moves from Scheduled to Active · Vendor notifications fire</p>
+                          </div>
                         </div>
-                        <div className="bg-gray-50 rounded-xl p-5 text-sm space-y-2">
-                          <p><span className="font-medium text-gray-400 text-xs uppercase tracking-wider">Trigger</span></p>
-                          <p className="text-gray-900">Document approved in candidate wallet</p>
-                          <div className="h-px bg-gray-200 my-2"></div>
-                          <p><span className="font-medium text-gray-400 text-xs uppercase tracking-wider">Action</span></p>
-                          <p className="text-gray-900">Matching compliance items marked Satisfied across all active placements</p>
+                        <div className="flex gap-12 md:gap-16 text-sm">
+                          <div className="flex-1">
+                            <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Trigger</p>
+                            <p className="text-gray-900">Document approved in candidate wallet</p>
+                          </div>
+                          <div className="flex-1">
+                            <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Action</p>
+                            <p className="text-gray-900">Matching compliance items marked Satisfied across all active placements</p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="bg-gray-50 border-l-2 border-gray-900 p-5">
-                    <p className="text-[15px] font-medium text-gray-900 leading-relaxed">The rule across all three: if the system does something without a human click, the UI must explain what happened, why it happened, and when. Silent automations are a design failure, not a development oversight.</p>
+
+                  <div className="pt-8 border-t border-gray-200">
+                    <p className="text-xl font-medium text-gray-900 leading-relaxed">The rule across all three: if the system does something without a human click, the UI must explain what happened, why it happened, and when. Silent automations are a design failure, not a development oversight.</p>
                   </div>
                 </div>
               </div>
