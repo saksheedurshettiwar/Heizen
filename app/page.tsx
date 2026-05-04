@@ -639,21 +639,25 @@ export default function AccessIQCaseStudy() {
                   <p className="text-lg text-gray-600 leading-relaxed">Automations that fire without a human click are invisible by default. Invisible system actions create confusion, distrust, and support tickets. The design responsibility is to make every automation visible, traceable, and narrated in the UI at the exact moment it fires.</p>
                   <p className="text-lg text-gray-600 leading-relaxed">Three automations are accounted for. One ships in Phase 1. Two are designed now and built in Phase 2.</p>
 
-                  <div className="grid md:grid-cols-3 gap-0 border border-gray-200 rounded-2xl overflow-hidden pt-8">
-                    <div className="p-8 border-r border-gray-200 md:col-span-1">
+                  <div className="grid grid-cols-1 gap-0 border border-gray-200 rounded-2xl overflow-hidden pt-8">
+                    <div className="p-8 border-b border-gray-200">
                       <div className="flex items-baseline gap-2 mb-6">
                         <span className="text-base font-bold text-gray-900 uppercase tracking-wide">Phase 1</span>
                         <span className="text-xs text-gray-400 font-medium">ships now</span>
                       </div>
-                      <div className="mb-4">
-                        <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Trigger</p>
-                        <p className="text-sm text-gray-900 mb-3">Candidate accepts an offer</p>
-                        <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Action</p>
-                        <p className="text-sm text-gray-900">Placement record created automatically</p>
+                      <div className="grid md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                          <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Trigger</p>
+                          <p className="text-sm text-gray-900 mb-3">Candidate accepts an offer</p>
+                        </div>
+                        <div>
+                          <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Action</p>
+                          <p className="text-sm text-gray-900">Placement record created automatically</p>
+                        </div>
                       </div>
                       <p className="text-[15px] text-gray-600 leading-relaxed">The UI narrates this in three places. A toast notification confirms the action in the moment. The placement list surfaces the new record with an AUTO badge. The audit log records SYSTEM as the actor with a timestamp and the trigger event.</p>
                     </div>
-                    <div className="p-8 md:col-span-2">
+                    <div className="p-8">
                       <div className="flex items-baseline gap-2 mb-6">
                         <span className="text-base font-bold text-gray-900 uppercase tracking-wide">Phase 2</span>
                         <span className="text-xs text-gray-400 font-medium">designed now, built later</span>
