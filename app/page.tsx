@@ -637,6 +637,7 @@ export default function AccessIQCaseStudy() {
                     <p>Both are designed in Phase 1 and flagged in the handoff. Development knows they are coming. The UI surfaces entry points for them before they are built.</p>
                     <p className="font-semibold text-gray-900 mt-4">The rule across all three: if the system does something without a human click, the UI must explain what happened, why it happened, and when. Silent automations are a design failure, not a development oversight.</p>
                   </div>
+                </div>
               </div>
             </div>
           )}
