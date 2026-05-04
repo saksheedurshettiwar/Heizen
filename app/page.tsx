@@ -362,7 +362,7 @@ export default function AccessIQCaseStudy() {
                   </div>
                   <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
                     <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Context</p>
-                    <p className="text-sm text-gray-600 leading-relaxed">
+                    <p className="text-[15px] text-gray-600 leading-relaxed">
                       Engagement type is the structural foundation of every requisition in NexusForce. Gloria selects Long-Term Order to initiate a 13-week contract workflow. This single selection determines which fields, compliance rules, and vendor submission behaviors are available in the steps ahead.
                     </p>
                   </div>
@@ -388,7 +388,7 @@ export default function AccessIQCaseStudy() {
                   </div>
                   <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
                     <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Business logic</p>
-                    <p className="text-sm text-gray-600 leading-relaxed">
+                    <p className="text-[15px] text-gray-600 leading-relaxed">
                       Engagement type cannot be changed after activation. It gates the shift scheduler, compensation structure, and vendor submission rules. An incorrect selection requires the template to be deactivated, duplicated, and rebuilt from Step 1.
                     </p>
                   </div>
