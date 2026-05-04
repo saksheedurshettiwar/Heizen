@@ -366,6 +366,24 @@ export default function AccessIQCaseStudy() {
                       Engagement type is the structural foundation of every requisition in NexusForce. Gloria selects Long-Term Order to initiate a 13-week contract workflow. This single selection determines which fields, compliance rules, and vendor submission behaviors are available in the steps ahead.
                     </p>
                   </div>
+                  <div className="space-y-6">
+                    <div className="relative w-full h-[600px] md:h-[800px]">
+                      <Image
+                        src="/Interaction Design/Step 1/Type - 02.png"
+                        alt="Step 1: Type Selection Mock 2"
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
+                    <div className="relative w-full h-[600px] md:h-[800px]">
+                      <Image
+                        src="/Interaction Design/Step 1/Type - 01.png"
+                        alt="Step 1: Type Selection Mock 1"
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
+                  </div>
 
                   <div className="p-6 bg-gray-100 rounded-2xl">
                     <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 2: Details</span> (Name, Occupation, Specialty, Location, Department, and multi-select Benefits).</p>
