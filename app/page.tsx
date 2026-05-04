@@ -356,31 +356,21 @@ export default function AccessIQCaseStudy() {
                 <p className="text-gray-600 leading-relaxed mb-12">
                   Design a five-screen flow within the Organisation Portal for Creating a Requisition Template. This is the mandatory starting point for all job creation. Your flow must include the following steps as defined in the technical specs:
                 </p>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="space-y-4">
                   <div className="p-6 bg-gray-100 rounded-2xl">
-                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Step 1</p>
-                    <h3 className="text-lg font-semibold mb-2">Type Selection</h3>
-                    <p className="text-sm text-gray-600">Long-Term Order, Per Diem, Permanent, or Internal Flex Pool</p>
+                    <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 1: Type Selection</span> (Long-Term Order, Per Diem, Permanent, or Internal Flex Pool).</p>
                   </div>
                   <div className="p-6 bg-gray-100 rounded-2xl">
-                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Step 2</p>
-                    <h3 className="text-lg font-semibold mb-2">Details</h3>
-                    <p className="text-sm text-gray-600">Name, Occupation, Specialty, Location, Department, and multi-select Benefits</p>
+                    <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 2: Details</span> (Name, Occupation, Specialty, Location, Department, and multi-select Benefits).</p>
                   </div>
                   <div className="p-6 bg-gray-100 rounded-2xl">
-                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Step 3</p>
-                    <h3 className="text-lg font-semibold mb-2">Shift & Schedule</h3>
-                    <p className="text-sm text-gray-600">Shift types and specific HH:MM time ranges</p>
+                    <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 3: Shift & Schedule</span> (Shift types and specific HH:MM time ranges).</p>
                   </div>
                   <div className="p-6 bg-gray-100 rounded-2xl">
-                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Step 4</p>
-                    <h3 className="text-lg font-semibold mb-2">Compensation</h3>
-                    <p className="text-sm text-gray-600">Bill Rates, Number of Positions, and optional Incentives</p>
+                    <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 4: Compensation</span> (Bill Rates, Number of Positions, and optional Incentives).</p>
                   </div>
                   <div className="p-6 bg-gray-100 rounded-2xl">
-                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3">Step 5</p>
-                    <h3 className="text-lg font-semibold mb-2">Compliance & Submission Rules</h3>
-                    <p className="text-sm text-gray-600">Integration of saved checklists and approval workflow toggles</p>
+                    <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 5: Compliance & Submission Rules</span> (Integration of saved checklists and approval workflow toggles).</p>
                   </div>
                 </div>
               </div>
