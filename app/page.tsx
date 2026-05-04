@@ -422,6 +422,12 @@ export default function AccessIQCaseStudy() {
                       />
                     </div>
                   </div>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Business logic</p>
+                    <p className="text-[15px] text-gray-600 leading-relaxed">
+                      Specialty is a dependent field. It resets when occupation changes. Location supports multi-select and candidates can be placed at any listed site. Benefits are pre-configured by Admin and are not freeform. The preview panel enforces rate isolation from this step forward with no bill rate, no internal notes are visible to vendors.
+                    </p>
+                  </div>
                   <div className="p-6 bg-gray-100 rounded-2xl">
                     <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 3: Shift & Schedule</span> (Shift types and specific HH:MM time ranges).</p>
                   </div>
