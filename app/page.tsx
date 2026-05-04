@@ -259,34 +259,24 @@ export default function AccessIQCaseStudy() {
                 <p className="text-gray-600 leading-relaxed mb-12">
                   Design a five-screen flow within the Organisation Portal for Creating a Requisition Template. This is the mandatory starting point for all job creation. Your flow must include the following steps as defined in the technical specs:
                 </p>
-                <div className="space-y-6">
-                  <div className="p-6 bg-gray-100 rounded-2xl">
-                    <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 1: Type Selection</span> (Long-Term Order, Per Diem, Permanent, or Internal Flex Pool).</p>
-                  </div>
-                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+              </div>
+              <div className="w-full h-px bg-gray-200 mt-12 mb-12"></div>
+              <div className="space-y-16">
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Step 1: Type Selection</h3>
+                  <p className="text-gray-500 text-sm mb-8">Long-Term Order, Per Diem, Permanent, or Internal Flex Pool.</p>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200 mb-8">
                     <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Context</p>
                     <p className="text-[15px] text-gray-600 leading-relaxed">
                       Engagement type is the structural foundation of every requisition in NexusForce. Gloria selects Long-Term Order to initiate a 13-week contract workflow. This single selection determines which fields, compliance rules, and vendor submission behaviors are available in the steps ahead.
                     </p>
                   </div>
-                  <div className="space-y-6">
+                  <div className="space-y-6 mb-8">
                     <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
-                      <Image
-                        src="/Interaction Design/Step 1/step-1-1.png"
-                        alt="Step 1: Type Selection Mock 1"
-                        width={1440}
-                        height={900}
-                        className="w-full h-auto"
-                      />
+                      <Image src="/Interaction Design/Step 1/step-1-1.png" alt="Step 1: Type Selection Mock 1" width={1440} height={900} className="w-full h-auto" />
                     </div>
                     <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
-                      <Image
-                        src="/Interaction Design/Step 1/step-1-2.png"
-                        alt="Step 1: Type Selection Mock 2"
-                        width={1440}
-                        height={900}
-                        className="w-full h-auto"
-                      />
+                      <Image src="/Interaction Design/Step 1/step-1-2.png" alt="Step 1: Type Selection Mock 2" width={1440} height={900} className="w-full h-auto" />
                     </div>
                   </div>
                   <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
@@ -295,34 +285,23 @@ export default function AccessIQCaseStudy() {
                       Engagement type cannot be changed after activation. It gates the shift scheduler, compensation structure, and vendor submission rules. An incorrect selection requires the template to be deactivated, duplicated, and rebuilt from Step 1.
                     </p>
                   </div>
+                </div>
 
-                  <div className="p-6 bg-gray-100 rounded-2xl">
-                    <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 2: Details</span> (Name, Occupation, Specialty, Location, Department, and multi-select Benefits).</p>
-                  </div>
-                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Step 2: Details</h3>
+                  <p className="text-gray-500 text-sm mb-8">Name, Occupation, Specialty, Location, Department, and multi-select Benefits.</p>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200 mb-8">
                     <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Context</p>
                     <p className="text-[15px] text-gray-600 leading-relaxed">
                       Occupation and specialty are not just descriptive fields. In NexusForce, they drive compliance checklist suggestions and determine which vendor pools are eligible to submit. Gloria configures the role details while the Vendor Facing Preview reflects exactly what agencies will see when the job goes live.
                     </p>
                   </div>
-                  <div className="space-y-6">
+                  <div className="space-y-6 mb-8">
                     <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
-                      <Image
-                        src="/Interaction Design/Step 2/step-2-01.png"
-                        alt="Step 2: Details Mock 1"
-                        width={1440}
-                        height={900}
-                        className="w-full h-auto"
-                      />
+                      <Image src="/Interaction Design/Step 2/step-2-01.png" alt="Step 2: Details Mock 1" width={1440} height={900} className="w-full h-auto" />
                     </div>
                     <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
-                      <Image
-                        src="/Interaction Design/Step 2/step-2-02.png"
-                        alt="Step 2: Details Mock 2"
-                        width={1440}
-                        height={900}
-                        className="w-full h-auto"
-                      />
+                      <Image src="/Interaction Design/Step 2/step-2-02.png" alt="Step 2: Details Mock 2" width={1440} height={900} className="w-full h-auto" />
                     </div>
                   </div>
                   <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
@@ -331,33 +310,23 @@ export default function AccessIQCaseStudy() {
                       Specialty is a dependent field. It resets when occupation changes. Location supports multi-select and candidates can be placed at any listed site. Benefits are pre-configured by Admin and are not freeform. The preview panel enforces rate isolation from this step forward with no bill rate, no internal notes are visible to vendors.
                     </p>
                   </div>
-                  <div className="p-6 bg-gray-100 rounded-2xl">
-                    <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 3: Shift & Schedule</span> (Shift types and specific HH:MM time ranges).</p>
-                  </div>
-                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Step 3: Shift & Schedule</h3>
+                  <p className="text-gray-500 text-sm mb-8">Shift types and specific HH:MM time ranges.</p>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200 mb-8">
                     <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Context</p>
                     <p className="text-[15px] text-gray-600 leading-relaxed">
                       Shift configuration in NexusForce feeds directly into timesheet generation, overtime calculation, and placement cost estimation. Gloria defines the shift pattern and contract duration once. Every downstream operation references this data.
                     </p>
                   </div>
-                  <div className="space-y-6">
+                  <div className="space-y-6 mb-8">
                     <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
-                      <Image
-                        src="/Interaction Design/Step 3/step-3-01.png"
-                        alt="Step 3: Shift & Schedule Mock 1"
-                        width={1440}
-                        height={900}
-                        className="w-full h-auto"
-                      />
+                      <Image src="/Interaction Design/Step 3/step-3-01.png" alt="Step 3: Shift & Schedule Mock 1" width={1440} height={900} className="w-full h-auto" />
                     </div>
                     <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
-                      <Image
-                        src="/Interaction Design/Step 3/step-3-02.png"
-                        alt="Step 3: Shift & Schedule Mock 2"
-                        width={1440}
-                        height={900}
-                        className="w-full h-auto"
-                      />
+                      <Image src="/Interaction Design/Step 3/step-3-02.png" alt="Step 3: Shift & Schedule Mock 2" width={1440} height={900} className="w-full h-auto" />
                     </div>
                   </div>
                   <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
@@ -366,33 +335,23 @@ export default function AccessIQCaseStudy() {
                       Overnight shifts where end time precedes start time require cross-midnight duration calculation. An incorrect entry here propagates into payroll and invoicing across every placement created from this template. Contract duration set here is inherited by all jobs posted from this template and cannot be overridden at the job level without creating a new template.
                     </p>
                   </div>
-                  <div className="p-6 bg-gray-100 rounded-2xl">
-                    <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 4: Compensation</span> (Bill Rates, Number of Positions, and optional Incentives).</p>
-                  </div>
-                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Step 4: Compensation</h3>
+                  <p className="text-gray-500 text-sm mb-8">Bill Rates, Number of Positions, and optional Incentives.</p>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200 mb-8">
                     <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Context</p>
                     <p className="text-[15px] text-gray-600 leading-relaxed">
                       Bill rate and vendor rate are structurally separated in NexusForce. Gloria sets what her organisation pays per placement. What vendors earn is calculated independently and never surfaces in the Organisation Portal. Incentives are configured here and inherited by every job posted from this template.
                     </p>
                   </div>
-                  <div className="space-y-6">
+                  <div className="space-y-6 mb-8">
                     <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
-                      <Image
-                        src="/Interaction Design/Step 4/step-4-01.png"
-                        alt="Step 4: Compensation Mock 1"
-                        width={1440}
-                        height={900}
-                        className="w-full h-auto"
-                      />
+                      <Image src="/Interaction Design/Step 4/step-4-01.png" alt="Step 4: Compensation Mock 1" width={1440} height={900} className="w-full h-auto" />
                     </div>
                     <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
-                      <Image
-                        src="/Interaction Design/Step 4/step-4-02.png"
-                        alt="Step 4: Compensation Mock 2"
-                        width={1440}
-                        height={900}
-                        className="w-full h-auto"
-                      />
+                      <Image src="/Interaction Design/Step 4/step-4-02.png" alt="Step 4: Compensation Mock 2" width={1440} height={900} className="w-full h-auto" />
                     </div>
                   </div>
                   <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
@@ -401,51 +360,29 @@ export default function AccessIQCaseStudy() {
                       Overtime rate is auto-calculated based on the bill rate and is read-only. Vendor rate is calculated as Vendor Rate = (Bill Rate × Hours) − MSP Fees and is never exposed in the Organisation Portal across any role. Incentives are optional. Marking them as required would force every template to carry a bonus structure, which is incorrect system behavior.
                     </p>
                   </div>
-                  <div className="p-6 bg-gray-100 rounded-2xl">
-                    <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 5: Compliance & Submission Rules</span> (Integration of saved checklists and approval workflow toggles).</p>
-                  </div>
-                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">Step 5: Compliance & Submission Rules</h3>
+                  <p className="text-gray-500 text-sm mb-8">Integration of saved checklists and approval workflow toggles.</p>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200 mb-8">
                     <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Context</p>
                     <p className="text-[15px] text-gray-600 leading-relaxed">
                       The compliance checklist selected here is frozen at job creation per the Immutability Rule. Gloria attaches the ICU Nurse Compliance Pack, configures approval workflows, and sets vendor submission limits. Once activated, this template becomes the reusable foundation for every ICU Long-Term Order posted from her organisation.
                     </p>
                   </div>
-                  <div className="space-y-6">
+                  <div className="space-y-6 mb-8">
                     <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
-                      <Image
-                        src="/Interaction Design/Step 5/step-5-01.png"
-                        alt="Step 5: Compliance & Submission Mock 1"
-                        width={1440}
-                        height={900}
-                        className="w-full h-auto"
-                      />
+                      <Image src="/Interaction Design/Step 5/step-5-01.png" alt="Step 5: Compliance & Submission Mock 1" width={1440} height={900} className="w-full h-auto" />
                     </div>
                     <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
-                      <Image
-                        src="/Interaction Design/Step 5/step-5-02.png"
-                        alt="Step 5: Compliance & Submission Mock 2"
-                        width={1440}
-                        height={900}
-                        className="w-full h-auto"
-                      />
+                      <Image src="/Interaction Design/Step 5/step-5-02.png" alt="Step 5: Compliance & Submission Mock 2" width={1440} height={900} className="w-full h-auto" />
                     </div>
                     <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
-                      <Image
-                        src="/Interaction Design/Step 5/step-5-03.png"
-                        alt="Step 5: Compliance & Submission Mock 3"
-                        width={1440}
-                        height={900}
-                        className="w-full h-auto"
-                      />
+                      <Image src="/Interaction Design/Step 5/step-5-03.png" alt="Step 5: Compliance & Submission Mock 3" width={1440} height={900} className="w-full h-auto" />
                     </div>
                     <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
-                      <Image
-                        src="/Interaction Design/Step 5/step-5-04.png"
-                        alt="Step 5: Compliance & Submission Mock 4"
-                        width={1440}
-                        height={900}
-                        className="w-full h-auto"
-                      />
+                      <Image src="/Interaction Design/Step 5/step-5-04.png" alt="Step 5: Compliance & Submission Mock 4" width={1440} height={900} className="w-full h-auto" />
                     </div>
                   </div>
                   <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
@@ -460,7 +397,18 @@ export default function AccessIQCaseStudy() {
           )}
 
           {activeTab === "strategic" && (
-            <div className="pt-16">
+            <div className="space-y-12 pt-8">
+              <div className="w-full">
+                <h2 className="text-2xl font-semibold mb-4">Task 4: Strategic Approach (The "One-Week" Challenge)</h2>
+                <p className="text-gray-600 leading-relaxed mb-6">
+                  NexusForce needs to be ready for development quickly. In a separate document or slide, answer the following:
+                </p>
+                <ul className="list-disc list-inside space-y-3 text-gray-600 leading-relaxed mb-6">
+                  <li>How would you approach the design process if the deadline for the entire portal (IA, all modules, and high-fidelity screens) was strictly one week?</li>
+                  <li>Detail your strategy for prioritisation, how you would handle "Non-Goals" (like external HR integrations or custom roles), and how you would ensure that "Non-Negotiable Automations" (like automatic placement creation upon offer acceptance) are clearly accounted for in the UI.</li>
+                </ul>
+              </div>
+              <div className="w-full h-px bg-gray-200 mt-12 mb-12"></div>
 
               {/* Q1 */}
               <div className="mb-32">
