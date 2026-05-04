@@ -367,7 +367,7 @@ export default function AccessIQCaseStudy() {
                     </p>
                   </div>
                   <div className="space-y-6">
-                    <div className="relative w-full bg-gray-100 rounded-2xl overflow-hidden" style={{ aspectRatio: "16/9" }}>
+                    <div className="relative w-full h-[600px] md:h-[800px]">
                       <Image
                         src="/Interaction Design/Step 1/Type - 02.png"
                         alt="Step 1: Type Selection Mock 2"
@@ -375,7 +375,7 @@ export default function AccessIQCaseStudy() {
                         className="object-contain"
                       />
                     </div>
-                    <div className="relative w-full bg-gray-100 rounded-2xl overflow-hidden" style={{ aspectRatio: "16/9" }}>
+                    <div className="relative w-full h-[600px] md:h-[800px]">
                       <Image
                         src="/Interaction Design/Step 1/Type - 01.png"
                         alt="Step 1: Type Selection Mock 1"
