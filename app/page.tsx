@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,6 +14,17 @@ const tabs = [
 
 export default function AccessIQCaseStudy() {
   const [activeTab, setActiveTab] = useState("overview");
+
+  const switchTab = (tabId: string) => {
+    setActiveTab(tabId);
+    const navEl = document.querySelector("nav");
+    if (navEl) {
+      window.scrollTo({
+        top: navEl.getBoundingClientRect().bottom + window.scrollY - 80,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <div className="min-h-screen bg-white text-gray-900">
@@ -43,7 +54,7 @@ export default function AccessIQCaseStudy() {
             {tabs.map((tab) => (
               <button
                 key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
+                onClick={() => switchTab(tab.id)}
                 className={`px-5 py-2.5 rounded-full text-sm font-medium transition-colors ${
                   activeTab === tab.id
                     ? "bg-black text-white"
