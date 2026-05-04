@@ -402,6 +402,26 @@ export default function AccessIQCaseStudy() {
                       Occupation and specialty are not just descriptive fields. In NexusForce, they drive compliance checklist suggestions and determine which vendor pools are eligible to submit. Gloria configures the role details while the Vendor Facing Preview reflects exactly what agencies will see when the job goes live.
                     </p>
                   </div>
+                  <div className="space-y-6">
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                      <Image
+                        src="/Interaction Design/Step 2/Step 2 - 01.png"
+                        alt="Step 2: Details Mock 1"
+                        width={1440}
+                        height={900}
+                        className="w-full h-auto"
+                      />
+                    </div>
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                      <Image
+                        src="/Interaction Design/Step 2/Step 2 - 02.png"
+                        alt="Step 2: Details Mock 2"
+                        width={1440}
+                        height={900}
+                        className="w-full h-auto"
+                      />
+                    </div>
+                  </div>
                   <div className="p-6 bg-gray-100 rounded-2xl">
                     <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 3: Shift & Schedule</span> (Shift types and specific HH:MM time ranges).</p>
                   </div>
