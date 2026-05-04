@@ -545,6 +545,12 @@ export default function AccessIQCaseStudy() {
                       />
                     </div>
                   </div>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Business logic</p>
+                    <p className="text-[15px] text-gray-600 leading-relaxed">
+                      Once Gloria activates this template, the checklist locks. Any edits made to it after this point have no effect on placements already in progress. At the placement stage, the system merges the checklist with the candidate's existing documents, duplicates are removed, and only documents with Approved status count as compliant.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
