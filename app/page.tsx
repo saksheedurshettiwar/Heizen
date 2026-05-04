@@ -570,11 +570,9 @@ export default function AccessIQCaseStudy() {
 
               {/* Q1 */}
               <div className="mb-32">
-                <div className="flex items-start gap-8 md:gap-16 mb-16">
-                  <span className="text-[120px] md:text-[180px] font-bold text-gray-100 leading-none tracking-tighter flex-shrink-0 -mt-4">01</span>
-                  <div className="pt-6 md:pt-8 flex-1">
-                    <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-tight max-w-4xl">How would you approach the design process if the deadline for the entire portal was strictly one week?</h3>
-                  </div>
+                <div className="flex items-baseline gap-3 md:gap-4 mb-16">
+                  <span className="text-4xl md:text-5xl font-bold text-gray-100 leading-none flex-shrink-0">01</span>
+                  <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-tight max-w-4xl">How would you approach the design process if the deadline for the entire portal was strictly one week?</h3>
                 </div>
                 <div className="space-y-8">
                   <p className="text-lg text-gray-600 leading-relaxed max-w-5xl">A one-week deadline does not compress the process. It forces a sequencing decision that most designers avoid: what does development need first to never be blocked, and what can be precisely specified instead of fully designed without slowing anything down.</p>
@@ -598,11 +596,9 @@ export default function AccessIQCaseStudy() {
 
               {/* Q2 */}
               <div className="mb-32">
-                <div className="flex items-start gap-8 md:gap-16 mb-16">
-                  <span className="text-[120px] md:text-[180px] font-bold text-gray-100 leading-none tracking-tighter flex-shrink-0 -mt-4">02</span>
-                  <div className="pt-6 md:pt-8 flex-1">
-                    <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-tight max-w-4xl">Detail your strategy for prioritisation and how you would handle Non-Goals.</h3>
-                  </div>
+                <div className="flex items-baseline gap-3 md:gap-4 mb-16">
+                  <span className="text-4xl md:text-5xl font-bold text-gray-100 leading-none flex-shrink-0">02</span>
+                  <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-tight max-w-4xl">Detail your strategy for prioritisation and how you would handle Non-Goals.</h3>
                 </div>
                 <div className="space-y-10">
                   <p className="text-lg text-gray-600 leading-relaxed max-w-5xl">Prioritisation in a one-week sprint is not about what is important. Everything on the brief is important. It is about what blocks development if it is missing, and what can be added later without touching existing work.</p>
@@ -629,11 +625,9 @@ export default function AccessIQCaseStudy() {
 
               {/* Q3 */}
               <div className="mb-24">
-                <div className="flex items-start gap-8 md:gap-16 mb-16">
-                  <span className="text-[120px] md:text-[180px] font-bold text-gray-100 leading-none tracking-tighter flex-shrink-0 -mt-4">03</span>
-                  <div className="pt-6 md:pt-8 flex-1">
-                    <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-tight max-w-4xl">How you would ensure that Non-Negotiable Automations are clearly accounted for in the UI.</h3>
-                  </div>
+                <div className="flex items-baseline gap-3 md:gap-4 mb-16">
+                  <span className="text-4xl md:text-5xl font-bold text-gray-100 leading-none flex-shrink-0">03</span>
+                  <h3 className="text-2xl md:text-3xl font-semibold text-gray-900 leading-tight max-w-4xl">How you would ensure that Non-Negotiable Automations are clearly accounted for in the UI.</h3>
                 </div>
                 <div className="space-y-10">
                   <p className="text-lg text-gray-600 leading-relaxed max-w-5xl">Automations that fire without a human click are invisible by default. Invisible system actions create confusion, distrust, and support tickets. The design responsibility is to make every automation visible, traceable, and narrated in the UI at the exact moment it fires.</p>
