@@ -187,30 +187,18 @@ export default function AccessIQCaseStudy() {
                   <li><span className="font-medium text-gray-900">Admin Portal:</span> A high-level control center for &quot;Program&quot; roles (StaffLogic internal) to manage configurations and global MSP/SaaS fees.</li>
                 </ul>
               </div>
-              <div className="relative w-full h-[600px] md:h-[800px] mb-24">
-                <Image
-                  src="/Ecosystem/four-portal-overview.png"
-                  alt="Four Portal Overview"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <div className="relative w-full h-[600px] md:h-[800px] mb-0">
-                <Image
-                  src="/Ecosystem/role-based-access.png"
-                  alt="Role-Based Access & Navigation"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <div className="w-full mt-8 pt-8 border-t border-gray-200">
-                <div className="text-sm text-gray-400 mb-3">Constraints</div>
-                <p className="text-gray-600 leading-relaxed mb-3">
-                  Vendor rates are never exposed in the Organisation Portal — absent, not hidden.
-                </p>
-                <p className="text-gray-600 leading-relaxed">
-                  Navigation items with no access are removed entirely — not greyed, not locked.
-                </p>
+              <div className="w-full h-px bg-gray-200 mt-12 mb-12"></div>
+              <div className="w-full">
+                <h2 className="text-2xl font-semibold mb-12">Ecosystem Architecture</h2>
+                <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
+                  <Image
+                    src="/Ecosystem/ecosystem-mock.png"
+                    alt="Ecosystem architecture mock"
+                    width={1440}
+                    height={900}
+                    className="w-full h-auto"
+                  />
+                </div>
               </div>
             </div>
           )}
