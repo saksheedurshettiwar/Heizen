@@ -431,6 +431,32 @@ export default function AccessIQCaseStudy() {
                   <div className="p-6 bg-gray-100 rounded-2xl">
                     <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 3: Shift & Schedule</span> (Shift types and specific HH:MM time ranges).</p>
                   </div>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Context</p>
+                    <p className="text-[15px] text-gray-600 leading-relaxed">
+                      Shift configuration in NexusForce feeds directly into timesheet generation, overtime calculation, and placement cost estimation. Gloria defines the shift pattern and contract duration once. Every downstream operation references this data.
+                    </p>
+                  </div>
+                  <div className="space-y-6">
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                      <Image
+                        src="/Interaction Design/Step 3/Step 3 - 01.png"
+                        alt="Step 3: Shift & Schedule Mock 1"
+                        width={1440}
+                        height={900}
+                        className="w-full h-auto"
+                      />
+                    </div>
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                      <Image
+                        src="/Interaction Design/Step 3/Step 3 - 02.png"
+                        alt="Step 3: Shift & Schedule Mock 2"
+                        width={1440}
+                        height={900}
+                        className="w-full h-auto"
+                      />
+                    </div>
+                  </div>
                   <div className="p-6 bg-gray-100 rounded-2xl">
                     <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 4: Compensation</span> (Bill Rates, Number of Positions, and optional Incentives).</p>
                   </div>
