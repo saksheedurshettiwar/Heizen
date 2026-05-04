@@ -368,14 +368,14 @@ export default function AccessIQCaseStudy() {
                   </div>
                   <div className="space-y-6">
                     <Image
-                      src="/Interaction Design/Step 1/Type - 02.png"
+                      src="/Interaction Design/Step 1/Step 1 - 2.png"
                       alt="Step 1: Type Selection Mock 2"
                       width={1440}
                       height={900}
                       className="w-full h-auto"
                     />
                     <Image
-                      src="/Interaction Design/Step 1/Type - 01.png"
+                      src="/Interaction Design/Step 1/Step 1 - 1.png"
                       alt="Step 1: Type Selection Mock 1"
                       width={1440}
                       height={900}
