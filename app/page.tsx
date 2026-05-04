@@ -14,6 +14,7 @@ const tabs = [
 
 export default function AccessIQCaseStudy() {
   const [activeTab, setActiveTab] = useState("overview");
+  const [showPrototype, setShowPrototype] = useState(false);
   const tabsRef = useRef<HTMLDivElement>(null);
 
   const switchTab = (tabId: string) => {
@@ -259,7 +260,24 @@ export default function AccessIQCaseStudy() {
                 <p className="text-gray-600 leading-relaxed mb-12">
                   Design a five-screen flow within the Organisation Portal for Creating a Requisition Template. This is the mandatory starting point for all job creation. Your flow must include the following steps as defined in the technical specs:
                 </p>
+                <button
+                  onClick={() => setShowPrototype(!showPrototype)}
+                  className="text-sm font-medium text-black underline underline-offset-4 hover:text-gray-600 transition-colors"
+                >
+                  {showPrototype ? "Hide Prototype" : "Prototype Link"}
+                </button>
               </div>
+              {showPrototype && (
+                <div className="w-full">
+                  <div className="w-full aspect-video">
+                    <iframe
+                      style={{ border: "1px solid rgba(0, 0, 0, 0.1)", width: "100%", height: "100%" }}
+                      src="https://embed.figma.com/proto/d3flG936CO8wKQd9woX1xe/NexusForce---Heizen?node-id=1-8674&viewport=-111%2C-1135%2C0.07&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A8674&page-id=0%3A1&embed-host=share"
+                      allowFullScreen
+                    />
+                  </div>
+                </div>
+              )}
               <div className="w-full h-px bg-gray-200 mt-12 mb-12"></div>
               <div className="space-y-16">
                 <div>
