@@ -369,8 +369,8 @@ export default function AccessIQCaseStudy() {
                   <div className="space-y-6">
                     <div className="relative w-full border border-gray-200 rounded-lg overflow-hidden">
                       <Image
-                        src="/Interaction Design/Step 1/Step 1 - 2.png"
-                        alt="Step 1: Type Selection Mock 2"
+                        src="/Interaction Design/Step 1/Step 1 - 1.png"
+                        alt="Step 1: Type Selection Mock 1"
                         width={1440}
                         height={900}
                         className="w-full h-auto"
@@ -378,8 +378,8 @@ export default function AccessIQCaseStudy() {
                     </div>
                     <div className="relative w-full border border-gray-200 rounded-lg overflow-hidden">
                       <Image
-                        src="/Interaction Design/Step 1/Step 1 - 1.png"
-                        alt="Step 1: Type Selection Mock 1"
+                        src="/Interaction Design/Step 1/Step 1 - 2.png"
+                        alt="Step 1: Type Selection Mock 2"
                         width={1440}
                         height={900}
                         className="w-full h-auto"
