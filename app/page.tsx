@@ -356,7 +356,7 @@ export default function AccessIQCaseStudy() {
                 <p className="text-gray-600 leading-relaxed mb-12">
                   Design a five-screen flow within the Organisation Portal for Creating a Requisition Template. This is the mandatory starting point for all job creation. Your flow must include the following steps as defined in the technical specs:
                 </p>
-                <div className="space-y-4">
+                <div className="space-y-6">
                   <div className="p-6 bg-gray-100 rounded-2xl">
                     <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 1: Type Selection</span> (Long-Term Order, Per Diem, Permanent, or Internal Flex Pool).</p>
                   </div>
