@@ -564,7 +564,7 @@ export default function AccessIQCaseStudy() {
                   NexusForce needs to be ready for development quickly. In a separate document or slide, answer the following:
                 </p>
                 <div className="space-y-0">
-                  <h3 className="text-xl font-semibold text-gray-900 py-4">How would you approach the design process if the deadline for the entire portal (IA, all modules, and high-fidelity screens) was strictly one week?</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 py-4">1. How would you approach the design process if the deadline for the entire portal (IA, all modules, and high-fidelity screens) was strictly one week?</h3>
                   <div className="px-6 pb-6 text-gray-600 leading-relaxed space-y-3">
                     <p>A one-week deadline does not compress the process. It forces a sequencing decision that most designers avoid: what does development need first to never be blocked, and what can be precisely specified instead of fully designed without slowing anything down.</p>
                     <p>The week splits into three phases.</p>
@@ -584,9 +584,9 @@ export default function AccessIQCaseStudy() {
                     </div>
                   </div>
                   <div className="h-px bg-gray-200"></div>
-                  <h3 className="text-xl font-semibold text-gray-900 py-4">Detail your strategy for prioritisation, how you would handle &quot;Non-Goals&quot; (like external HR integrations or custom roles).</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 py-4">2. Detail your strategy for prioritisation, how you would handle &quot;Non-Goals&quot; (like external HR integrations or custom roles).</h3>
                   <div className="h-px bg-gray-200"></div>
-                  <h3 className="text-xl font-semibold text-gray-900 py-4">How you would ensure that &quot;Non-Negotiable Automations&quot; (like automatic placement creation upon offer acceptance) are clearly accounted for in the UI.</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 py-4">3. How you would ensure that &quot;Non-Negotiable Automations&quot; (like automatic placement creation upon offer acceptance) are clearly accounted for in the UI.</h3>
                 </div>
               </div>
             </div>
