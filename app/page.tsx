@@ -566,88 +566,95 @@ export default function AccessIQCaseStudy() {
           )}
 
           {activeTab === "strategic" && (
-            <div className="space-y-12 pt-8">
-              <div className="w-full">
-                <h2 className="text-2xl font-semibold mb-4">Task 4: Strategic Approach (The "One-Week" Challenge)</h2>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  NexusForce needs to be ready for development quickly. In a separate document or slide, answer the following:
-                </p>
-              </div>
+            <div className="pt-8">
 
               {/* Q1 */}
-              <div className="border border-gray-200 rounded-2xl overflow-hidden">
-                <div className="px-6 md:px-8 py-6 bg-gray-50 border-b border-gray-200">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-1">Question 1</p>
-                  <h3 className="text-xl font-semibold text-gray-900">How would you approach the design process if the deadline for the entire portal (IA, all modules, and high-fidelity screens) was strictly one week?</h3>
+              <div className="grid md:grid-cols-12 gap-8 pb-12 mb-12 border-b border-gray-200">
+                <div className="md:col-span-4">
+                  <div className="flex items-baseline gap-3 mb-2">
+                    <span className="text-5xl font-bold text-gray-200">01</span>
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900 leading-snug">How would you approach the design process if the deadline for the entire portal was strictly one week?</h3>
                 </div>
-                <div className="px-6 md:px-8 py-6 text-[15px] text-gray-600 leading-relaxed space-y-4">
+                <div className="md:col-span-8 text-[15px] text-gray-600 leading-relaxed space-y-4">
                   <p>A one-week deadline does not compress the process. It forces a sequencing decision that most designers avoid: what does development need first to never be blocked, and what can be precisely specified instead of fully designed without slowing anything down.</p>
                   <p>The week splits into three phases.</p>
-                  <ul className="space-y-3 mt-4 list-disc list-inside">
-                    <li><span className="font-semibold text-gray-900">Foundation first -</span> IA, role permissions, and data rules are locked in writing before any screen is opened. These are the decisions that cause full redesigns if they shift mid-week. Locking them early protects everything that follows.</li>
-                    <li><span className="font-semibold text-gray-900">Critical path hi-fi -</span> The Requisition Template wizard is the entry point to everything. Designing it completely generates the component library as a byproducts are tables, form fields, status badges, navigation shell. Development receives the component library by end of Day 2 and starts building while design continues.</li>
-                    <li><span className="font-semibold text-gray-900">Assembly over redesign -</span> Vendor Portal shares 70% of Org Portal components. Candidate Portal is three screens. Admin Portal is internal tooling — a precise annotated spec ships faster and safer than rushed hi-fi with missing edge cases. Every portal is development-ready. Not every portal is hi-fi.</li>
-                  </ul>
+                  <div className="space-y-4 mt-4">
+                    <div className="flex gap-4">
+                      <span className="text-gray-900 font-medium flex-shrink-0">–</span>
+                      <p><span className="font-semibold text-gray-900">Foundation first.</span> IA, role permissions, and data rules are locked in writing before any screen is opened. These are the decisions that cause full redesigns if they shift mid-week.</p>
+                    </div>
+                    <div className="flex gap-4">
+                      <span className="text-gray-900 font-medium flex-shrink-0">–</span>
+                      <p><span className="font-semibold text-gray-900">Critical path hi-fi.</span> The Requisition Template wizard is the entry point to everything. Designing it completely generates the component library as a byproduct. Development starts building by end of Day 2 while design continues.</p>
+                    </div>
+                    <div className="flex gap-4">
+                      <span className="text-gray-900 font-medium flex-shrink-0">–</span>
+                      <p><span className="font-semibold text-gray-900">Assembly over redesign.</span> Vendor Portal shares 70% of Org Portal components. Candidate Portal is three screens. Admin Portal is internal tooling — a precise annotated spec ships faster than rushed hi-fi.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               {/* Q2 */}
-              <div className="border border-gray-200 rounded-2xl overflow-hidden">
-                <div className="px-6 md:px-8 py-6 bg-gray-50 border-b border-gray-200">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-1">Question 2</p>
-                  <h3 className="text-xl font-semibold text-gray-900">Detail your strategy for prioritisation, how you would handle &quot;Non-Goals&quot; (like external HR integrations or custom roles).</h3>
+              <div className="grid md:grid-cols-12 gap-8 pb-12 mb-12 border-b border-gray-200">
+                <div className="md:col-span-4">
+                  <div className="flex items-baseline gap-3 mb-2">
+                    <span className="text-5xl font-bold text-gray-200">02</span>
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900 leading-snug">Detail your strategy for prioritisation and how you would handle Non-Goals.</h3>
                 </div>
-                <div className="px-6 md:px-8 py-6 text-[15px] text-gray-600 leading-relaxed space-y-4">
+                <div className="md:col-span-8 text-[15px] text-gray-600 leading-relaxed space-y-4">
                   <p>Prioritisation in a one-week sprint is not about what is important. Everything on the brief is important. It is about what blocks development if it is missing, and what can be added later without touching existing work.</p>
-                  <div className="grid grid-cols-3 gap-4 my-4 text-sm">
-                    <div className="p-4 bg-gray-100 rounded-xl">
-                      <p className="font-semibold text-gray-900 mb-1">Ships hi-fi</p>
-                      <p className="text-gray-600">Wizard · Org Portal · Component library</p>
+                  <div className="grid grid-cols-3 gap-3 my-4">
+                    <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                      <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-1">Ships hi-fi</p>
+                      <p className="text-sm text-gray-700">Wizard · Org Portal · Component library</p>
                     </div>
-                    <div className="p-4 bg-gray-100 rounded-xl">
-                      <p className="font-semibold text-gray-900 mb-1">Ships specified</p>
-                      <p className="text-gray-600">Vendor · Candidate · Admin portals</p>
+                    <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                      <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-1">Ships specified</p>
+                      <p className="text-sm text-gray-700">Vendor · Candidate · Admin portals</p>
                     </div>
-                    <div className="p-4 bg-gray-100 rounded-xl">
-                      <p className="font-semibold text-gray-900 mb-1">Does not ship</p>
-                      <p className="text-gray-600">HR integrations · Custom roles · Reporting</p>
+                    <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                      <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-1">Does not ship</p>
+                      <p className="text-sm text-gray-700">HR integrations · Custom roles · Reporting</p>
                     </div>
                   </div>
-                  <p>The load-bearing decisions ship hi-fi without negotiation. The Requisition Template wizard, Org Portal core modules, the component library, IA documentation, data rules spec, and the automation trigger map. If any of these are wrong or missing, development builds on an unstable foundation.</p>
-                  <p>Vendor, Candidate, and Admin portals ship fully specified and precisely annotated. Not every screen needs to be hi-fi for development to start building it correctly.</p>
-                  <p>External HR integrations, custom role builder, full reporting, and invoice dispute handling are out of scope for Phase 1. But they are not ignored. Each gets a stub in the navigation with a Phase 2 label. If a nav item is absent now and added later, development touches navigation code twice. Stubbing it once costs 15 minutes and saves a future sprint.</p>
-                  <p className="font-medium text-gray-900 mt-4">Non-goals are not failures. They are decisions. The difference between a designer who ran out of time and a designer who made a deliberate call is documentation. Every non-goal is named, reasoned, and written into the handoff before delivery.</p>
+                  <p>External HR integrations, custom role builder, full reporting, and invoice dispute handling are out of scope for Phase 1. Each gets a stub in the navigation with a Phase 2 label. Stubbing once costs 15 minutes and saves a future sprint.</p>
+                  <p className="font-medium text-gray-900 mt-4">Non-goals are not failures. They are decisions. Every non-goal is named, reasoned, and written into the handoff before delivery.</p>
                 </div>
               </div>
 
               {/* Q3 */}
-              <div className="border border-gray-200 rounded-2xl overflow-hidden">
-                <div className="px-6 md:px-8 py-6 bg-gray-50 border-b border-gray-200">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-1">Question 3</p>
-                  <h3 className="text-xl font-semibold text-gray-900">How you would ensure that &quot;Non-Negotiable Automations&quot; (like automatic placement creation upon offer acceptance) are clearly accounted for in the UI.</h3>
+              <div className="grid md:grid-cols-12 gap-8">
+                <div className="md:col-span-4">
+                  <div className="flex items-baseline gap-3 mb-2">
+                    <span className="text-5xl font-bold text-gray-200">03</span>
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900 leading-snug">How you would ensure that Non-Negotiable Automations are clearly accounted for in the UI.</h3>
                 </div>
-                <div className="px-6 md:px-8 py-6 text-[15px] text-gray-600 leading-relaxed space-y-4">
+                <div className="md:col-span-8 text-[15px] text-gray-600 leading-relaxed space-y-4">
                   <p>Automations that fire without a human click are invisible by default. Invisible system actions create confusion, distrust, and support tickets. The design responsibility is to make every automation visible, traceable, and narrated in the UI at the exact moment it fires.</p>
-                  <p>Three automations are accounted for in NexusForce. One ships in Phase 1. Two are designed now and built in Phase 2.</p>
-                  <div className="space-y-4 mt-4">
-                    <div>
-                      <div className="inline-block px-3 py-1 bg-gray-900 text-white text-xs font-semibold rounded-full mb-3">Phase 1</div>
-                      <div className="bg-gray-100 rounded-xl p-5 text-sm space-y-2 mb-4">
-                        <p><span className="font-semibold text-gray-900">Trigger:</span> Candidate accepts an offer</p>
-                        <p><span className="font-semibold text-gray-900">Action:</span> Placement record created automatically</p>
+                  <p>Three automations are accounted for. One ships in Phase 1. Two are designed now and built in Phase 2.</p>
+                  <div className="space-y-4 mt-6">
+                    <div className="pl-5 border-l-2 border-gray-900">
+                      <p className="text-sm font-semibold text-gray-900 mb-3">Phase 1</p>
+                      <div className="text-sm text-gray-700 space-y-1 mb-3">
+                        <p><span className="font-medium">Trigger:</span> Candidate accepts an offer</p>
+                        <p><span className="font-medium">Action:</span> Placement record created automatically</p>
                       </div>
-                      <p>The UI narrates this in three places. A toast notification confirms the action in the moment. The placement list surfaces the new record with an AUTO badge so no one wonders where it came from. The audit log records SYSTEM as the actor with a timestamp and the trigger event — not the user, not Operations, the system.</p>
+                      <p>The UI narrates this in three places. A toast notification confirms the action in the moment. The placement list surfaces the new record with an AUTO badge. The audit log records SYSTEM as the actor with a timestamp and the trigger event.</p>
                     </div>
-                    <div className="pt-4 border-t border-gray-200">
-                      <div className="inline-block px-3 py-1 bg-gray-200 text-gray-700 text-xs font-semibold rounded-full mb-3">Phase 2</div>
-                      <div className="bg-gray-100 rounded-xl p-5 text-sm space-y-4">
+                    <div className="pl-5 border-l-2 border-gray-300">
+                      <p className="text-sm font-semibold text-gray-900 mb-3">Phase 2</p>
+                      <div className="text-sm text-gray-700 space-y-3 mb-3">
                         <div>
-                          <p><span className="font-semibold text-gray-900">Trigger:</span> Scheduled activation date arrives</p>
-                          <p><span className="font-semibold text-gray-900">Action:</span> Job moves from Scheduled to Active · Vendor notifications fire</p>
+                          <p><span className="font-medium">Trigger:</span> Scheduled activation date arrives</p>
+                          <p><span className="font-medium">Action:</span> Job moves from Scheduled to Active · Vendor notifications fire</p>
                         </div>
-                        <div className="pt-3 border-t border-gray-200">
-                          <p><span className="font-semibold text-gray-900">Trigger:</span> Document approved in candidate wallet</p>
-                          <p><span className="font-semibold text-gray-900">Action:</span> Matching compliance items marked Satisfied across all active placements automatically</p>
+                        <div>
+                          <p><span className="font-medium">Trigger:</span> Document approved in candidate wallet</p>
+                          <p><span className="font-medium">Action:</span> Matching compliance items marked Satisfied across all active placements</p>
                         </div>
                       </div>
                     </div>
