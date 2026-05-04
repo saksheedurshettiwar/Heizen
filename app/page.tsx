@@ -369,16 +369,16 @@ export default function AccessIQCaseStudy() {
                   <div className="space-y-6">
                     <div className="relative w-full bg-gray-100 rounded-2xl overflow-hidden" style={{ aspectRatio: "16/9" }}>
                       <Image
-                        src="/Interaction Design/Step 1/Type - 01.png"
-                        alt="Step 1: Type Selection Mock 1"
+                        src="/Interaction Design/Step 1/Type - 02.png"
+                        alt="Step 1: Type Selection Mock 2"
                         fill
                         className="object-contain"
                       />
                     </div>
                     <div className="relative w-full bg-gray-100 rounded-2xl overflow-hidden" style={{ aspectRatio: "16/9" }}>
                       <Image
-                        src="/Interaction Design/Step 1/Type - 02.png"
-                        alt="Step 1: Type Selection Mock 2"
+                        src="/Interaction Design/Step 1/Type - 01.png"
+                        alt="Step 1: Type Selection Mock 1"
                         fill
                         className="object-contain"
                       />
