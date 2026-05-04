@@ -386,6 +386,12 @@ export default function AccessIQCaseStudy() {
                       />
                     </div>
                   </div>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Business logic</p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Engagement type cannot be changed after activation. It gates the shift scheduler, compensation structure, and vendor submission rules. An incorrect selection requires the template to be deactivated, duplicated, and rebuilt from Step 1.
+                    </p>
+                  </div>
 
                   <div className="p-6 bg-gray-100 rounded-2xl">
                     <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 2: Details</span> (Name, Occupation, Specialty, Location, Department, and multi-select Benefits).</p>
