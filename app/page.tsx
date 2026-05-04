@@ -262,9 +262,9 @@ export default function AccessIQCaseStudy() {
                 </p>
                 <button
                   onClick={() => setShowPrototype(!showPrototype)}
-                  className="text-sm font-medium text-black underline underline-offset-4 hover:text-gray-600 transition-colors"
+                  className="px-6 py-3 bg-[#2E90FA] text-white rounded-[12px] text-sm font-medium hover:bg-[#1B76D8] transition-colors"
                 >
-                  {showPrototype ? "Hide Prototype" : "Prototype Link"}
+                  {showPrototype ? "Hide Prototype" : "View Prototype"}
                 </button>
               </div>
               {showPrototype && (
