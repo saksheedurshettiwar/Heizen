@@ -237,6 +237,18 @@ export default function AccessIQCaseStudy() {
                   </div>
                 </div>
               </div>
+              <div className="w-full mt-12">
+                <h2 className="text-2xl font-semibold mb-12">The relationship between Requisition Templates, the Document Wallet, and Compliance Checklists</h2>
+                <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
+                  <Image
+                    src="/Data/data-mock.png"
+                    alt="Data relationship mock"
+                    width={1440}
+                    height={900}
+                    className="w-full h-auto"
+                  />
+                </div>
+              </div>
             </div>
           )}
 
