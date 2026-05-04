@@ -457,11 +457,93 @@ export default function AccessIQCaseStudy() {
                       />
                     </div>
                   </div>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Business logic</p>
+                    <p className="text-[15px] text-gray-600 leading-relaxed">
+                      Overnight shifts where end time precedes start time require cross-midnight duration calculation. An incorrect entry here propagates into payroll and invoicing across every placement created from this template. Contract duration set here is inherited by all jobs posted from this template and cannot be overridden at the job level without creating a new template.
+                    </p>
+                  </div>
                   <div className="p-6 bg-gray-100 rounded-2xl">
                     <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 4: Compensation</span> (Bill Rates, Number of Positions, and optional Incentives).</p>
                   </div>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Context</p>
+                    <p className="text-[15px] text-gray-600 leading-relaxed">
+                      Bill rate and vendor rate are structurally separated in NexusForce. Gloria sets what her organisation pays per placement. What vendors earn is calculated independently and never surfaces in the Organisation Portal. Incentives are configured here and inherited by every job posted from this template.
+                    </p>
+                  </div>
+                  <div className="space-y-6">
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                      <Image
+                        src="/Interaction Design/Step 4/Step 4 - 01.png"
+                        alt="Step 4: Compensation Mock 1"
+                        width={1440}
+                        height={900}
+                        className="w-full h-auto"
+                      />
+                    </div>
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                      <Image
+                        src="/Interaction Design/Step 4/Step 4 - 02.png"
+                        alt="Step 4: Compensation Mock 2"
+                        width={1440}
+                        height={900}
+                        className="w-full h-auto"
+                      />
+                    </div>
+                  </div>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Business logic</p>
+                    <p className="text-[15px] text-gray-600 leading-relaxed">
+                      Overtime rate is auto-calculated based on the bill rate and is read-only. Vendor rate is calculated as Vendor Rate = (Bill Rate × Hours) − MSP Fees and is never exposed in the Organisation Portal across any role. Incentives are optional. Marking them as required would force every template to carry a bonus structure, which is incorrect system behavior.
+                    </p>
+                  </div>
                   <div className="p-6 bg-gray-100 rounded-2xl">
                     <p className="text-gray-600 leading-relaxed"><span className="font-medium text-gray-900">Step 5: Compliance & Submission Rules</span> (Integration of saved checklists and approval workflow toggles).</p>
+                  </div>
+                  <div className="pl-6 pr-6 pt-4 pb-8 border-l-2 border-gray-200">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Context</p>
+                    <p className="text-[15px] text-gray-600 leading-relaxed">
+                      The compliance checklist selected here is frozen at job creation per the Immutability Rule. Gloria attaches the ICU Nurse Compliance Pack, configures approval workflows, and sets vendor submission limits. Once activated, this template becomes the reusable foundation for every ICU Long-Term Order posted from her organisation.
+                    </p>
+                  </div>
+                  <div className="space-y-6">
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                      <Image
+                        src="/Interaction Design/Step 5/Step 5 - 01.png"
+                        alt="Step 5: Compliance & Submission Mock 1"
+                        width={1440}
+                        height={900}
+                        className="w-full h-auto"
+                      />
+                    </div>
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                      <Image
+                        src="/Interaction Design/Step 5/Step 5 - 02.png"
+                        alt="Step 5: Compliance & Submission Mock 2"
+                        width={1440}
+                        height={900}
+                        className="w-full h-auto"
+                      />
+                    </div>
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                      <Image
+                        src="/Interaction Design/Step 5/Step 5 - 03.png"
+                        alt="Step 5: Compliance & Submission Mock 3"
+                        width={1440}
+                        height={900}
+                        className="w-full h-auto"
+                      />
+                    </div>
+                    <div className="relative w-full border border-gray-200 overflow-hidden">
+                      <Image
+                        src="/Interaction Design/Step 5/Step 5 - 04.png"
+                        alt="Step 5: Compliance & Submission Mock 4"
+                        width={1440}
+                        height={900}
+                        className="w-full h-auto"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
