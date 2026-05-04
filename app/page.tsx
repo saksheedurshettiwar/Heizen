@@ -571,15 +571,15 @@ export default function AccessIQCaseStudy() {
                     <div className="space-y-2 mt-3">
                       <div className="flex gap-3">
                         <span className="text-gray-900 font-medium">-</span>
-                        <p><span className="font-semibold text-gray-900">Foundation first.</span> IA, role permissions, and data rules are locked in writing before any screen is opened. These are the decisions that cause full redesigns if they shift mid-week. Locking them early protects everything that follows.</p>
+                        <p><span className="font-semibold text-gray-900">Foundation first -</span> IA, role permissions, and data rules are locked in writing before any screen is opened. These are the decisions that cause full redesigns if they shift mid-week. Locking them early protects everything that follows.</p>
                       </div>
                       <div className="flex gap-3">
                         <span className="text-gray-900 font-medium">-</span>
-                        <p><span className="font-semibold text-gray-900">Critical path hi-fi.</span> The Requisition Template wizard is the entry point to everything. Designing it completely generates the component library as a byproduct — tables, form fields, status badges, navigation shell. Development receives the component library by end of Day 2 and starts building while design continues.</p>
+                        <p><span className="font-semibold text-gray-900">Critical path hi-fi -</span> The Requisition Template wizard is the entry point to everything. Designing it completely generates the component library as a byproducts are tables, form fields, status badges, navigation shell. Development receives the component library by end of Day 2 and starts building while design continues.</p>
                       </div>
                       <div className="flex gap-3">
                         <span className="text-gray-900 font-medium">-</span>
-                        <p><span className="font-semibold text-gray-900">Assembly over redesign.</span> Vendor Portal shares 70% of Org Portal components. Candidate Portal is three screens. Admin Portal is internal tooling — a precise annotated spec ships faster and safer than rushed hi-fi with missing edge cases. Every portal is development-ready. Not every portal is hi-fi.</p>
+                        <p><span className="font-semibold text-gray-900">Assembly over redesign -</span> Vendor Portal shares 70% of Org Portal components. Candidate Portal is three screens. Admin Portal is internal tooling — a precise annotated spec ships faster and safer than rushed hi-fi with missing edge cases. Every portal is development-ready. Not every portal is hi-fi.</p>
                       </div>
                     </div>
                   </div>
