@@ -563,11 +563,13 @@ export default function AccessIQCaseStudy() {
                 <p className="text-gray-600 leading-relaxed mb-6">
                   NexusForce needs to be ready for development quickly. In a separate document or slide, answer the following:
                 </p>
-                <ul className="list-disc list-inside space-y-3 text-gray-600 leading-relaxed mb-6">
-                  <li>How would you approach the design process if the deadline for the entire portal (IA, all modules, and high-fidelity screens) was strictly one week?</li>
-                  <li>Detail your strategy for prioritisation, how you would handle &quot;Non-Goals&quot; (like external HR integrations or custom roles).</li>
-                  <li>How you would ensure that &quot;Non-Negotiable Automations&quot; (like automatic placement creation upon offer acceptance) are clearly accounted for in the UI.</li>
-                </ul>
+                <div className="space-y-0">
+                  <p className="text-gray-600 leading-relaxed py-4">How would you approach the design process if the deadline for the entire portal (IA, all modules, and high-fidelity screens) was strictly one week?</p>
+                  <div className="h-px bg-gray-200"></div>
+                  <p className="text-gray-600 leading-relaxed py-4">Detail your strategy for prioritisation, how you would handle &quot;Non-Goals&quot; (like external HR integrations or custom roles).</p>
+                  <div className="h-px bg-gray-200"></div>
+                  <p className="text-gray-600 leading-relaxed py-4">How you would ensure that &quot;Non-Negotiable Automations&quot; (like automatic placement creation upon offer acceptance) are clearly accounted for in the UI.</p>
+                </div>
               </div>
             </div>
           )}
