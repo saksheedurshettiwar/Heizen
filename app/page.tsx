@@ -606,16 +606,16 @@ export default function AccessIQCaseStudy() {
                 </div>
                 <div className="space-y-10">
                   <p className="text-lg text-gray-600 leading-relaxed">Prioritisation in a one-week sprint is not about what is important. Everything on the brief is important. It is about what blocks development if it is missing, and what can be added later without touching existing work.</p>
-                  <div className="grid grid-cols-3 gap-0 border-t border-b border-gray-200 py-8">
-                    <div className="pr-6">
+                  <div className="grid grid-cols-3 gap-0 border border-gray-200 rounded-2xl overflow-hidden">
+                    <div className="p-8 border-r border-gray-200">
                       <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Ships hi-fi</p>
                       <p className="text-sm text-gray-700 leading-snug">Wizard · Org Portal · Component library</p>
                     </div>
-                    <div className="px-6 border-l border-gray-200">
+                    <div className="p-8 border-r border-gray-200">
                       <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Ships specified</p>
                       <p className="text-sm text-gray-700 leading-snug">Vendor · Candidate · Admin portals</p>
                     </div>
-                    <div className="pl-6 border-l border-gray-200">
+                    <div className="p-8">
                       <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Does not ship</p>
                       <p className="text-sm text-gray-700 leading-snug">HR integrations · Custom roles · Reporting</p>
                     </div>
@@ -639,52 +639,37 @@ export default function AccessIQCaseStudy() {
                   <p className="text-lg text-gray-600 leading-relaxed">Automations that fire without a human click are invisible by default. Invisible system actions create confusion, distrust, and support tickets. The design responsibility is to make every automation visible, traceable, and narrated in the UI at the exact moment it fires.</p>
                   <p className="text-lg text-gray-600 leading-relaxed">Three automations are accounted for. One ships in Phase 1. Two are designed now and built in Phase 2.</p>
 
-                  <div className="space-y-10 pt-8">
-                    <div>
-                      <div className="flex items-baseline gap-3 mb-6">
+                  <div className="grid md:grid-cols-3 gap-0 border border-gray-200 rounded-2xl overflow-hidden pt-8">
+                    <div className="p-8 border-r border-gray-200 md:col-span-1">
+                      <div className="flex items-baseline gap-2 mb-6">
                         <span className="text-base font-bold text-gray-900 uppercase tracking-wide">Phase 1</span>
                         <span className="text-xs text-gray-400 font-medium">ships now</span>
                       </div>
-                      <div className="grid md:grid-cols-2 gap-12 mb-6">
-                        <div>
-                          <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Trigger</p>
-                          <p className="text-gray-900">Candidate accepts an offer</p>
-                        </div>
-                        <div>
-                          <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Action</p>
-                          <p className="text-gray-900">Placement record created automatically</p>
-                        </div>
+                      <div className="mb-4">
+                        <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Trigger</p>
+                        <p className="text-sm text-gray-900 mb-3">Candidate accepts an offer</p>
+                        <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Action</p>
+                        <p className="text-sm text-gray-900">Placement record created automatically</p>
                       </div>
                       <p className="text-[15px] text-gray-600 leading-relaxed">The UI narrates this in three places. A toast notification confirms the action in the moment. The placement list surfaces the new record with an AUTO badge. The audit log records SYSTEM as the actor with a timestamp and the trigger event.</p>
                     </div>
-
-                    <div className="h-px bg-gray-200"></div>
-
-                    <div>
-                      <div className="flex items-baseline gap-3 mb-6">
+                    <div className="p-8 md:col-span-2">
+                      <div className="flex items-baseline gap-2 mb-6">
                         <span className="text-base font-bold text-gray-900 uppercase tracking-wide">Phase 2</span>
                         <span className="text-xs text-gray-400 font-medium">designed now, built later</span>
                       </div>
-                      <div className="space-y-8 mb-6">
-                        <div className="grid md:grid-cols-2 gap-12">
-                          <div>
-                            <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Trigger</p>
-                            <p className="text-gray-900">Scheduled activation date arrives</p>
-                          </div>
-                          <div>
-                            <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Action</p>
-                            <p className="text-gray-900">Job moves from Scheduled to Active · Vendor notifications fire</p>
-                          </div>
+                      <div className="grid md:grid-cols-2 gap-8">
+                        <div>
+                          <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Trigger</p>
+                          <p className="text-sm text-gray-900 mb-3">Scheduled activation date arrives</p>
+                          <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Action</p>
+                          <p className="text-sm text-gray-900">Job moves from Scheduled to Active · Vendor notifications fire</p>
                         </div>
-                        <div className="grid md:grid-cols-2 gap-12">
-                          <div>
-                            <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Trigger</p>
-                            <p className="text-gray-900">Document approved in candidate wallet</p>
-                          </div>
-                          <div>
-                            <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Action</p>
-                            <p className="text-gray-900">Matching compliance items marked Satisfied across all active placements</p>
-                          </div>
+                        <div>
+                          <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Trigger</p>
+                          <p className="text-sm text-gray-900 mb-3">Document approved in candidate wallet</p>
+                          <p className="text-xs font-medium text-gray-400 uppercase tracking-wider mb-1">Action</p>
+                          <p className="text-sm text-gray-900">Matching compliance items marked Satisfied across all active placements</p>
                         </div>
                       </div>
                     </div>
