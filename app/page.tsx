@@ -38,7 +38,7 @@ export default function AccessIQCaseStudy() {
           </h1>
         </section>
 
-        <section className="w-full px-6 md:px-12 lg:px-24 pb-8">
+        <section className="w-full px-6 md:px-12 lg:px-24 pb-8 sticky top-[64px] z-40 bg-white">
           <div className="flex flex-wrap gap-3">
             {tabs.map((tab) => (
               <button
