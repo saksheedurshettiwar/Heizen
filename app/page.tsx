@@ -367,22 +367,20 @@ export default function AccessIQCaseStudy() {
                     </p>
                   </div>
                   <div className="space-y-6">
-                    <div className="relative w-full h-[600px] md:h-[800px]">
-                      <Image
-                        src="/Interaction Design/Step 1/Type - 02.png"
-                        alt="Step 1: Type Selection Mock 2"
-                        fill
-                        className="object-contain"
-                      />
-                    </div>
-                    <div className="relative w-full h-[600px] md:h-[800px]">
-                      <Image
-                        src="/Interaction Design/Step 1/Type - 01.png"
-                        alt="Step 1: Type Selection Mock 1"
-                        fill
-                        className="object-contain"
-                      />
-                    </div>
+                    <Image
+                      src="/Interaction Design/Step 1/Type - 02.png"
+                      alt="Step 1: Type Selection Mock 2"
+                      width={1440}
+                      height={900}
+                      className="w-full h-auto"
+                    />
+                    <Image
+                      src="/Interaction Design/Step 1/Type - 01.png"
+                      alt="Step 1: Type Selection Mock 1"
+                      width={1440}
+                      height={900}
+                      className="w-full h-auto"
+                    />
                   </div>
 
                   <div className="p-6 bg-gray-100 rounded-2xl">
