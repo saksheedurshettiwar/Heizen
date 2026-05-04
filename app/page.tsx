@@ -568,9 +568,20 @@ export default function AccessIQCaseStudy() {
                   <div className="px-6 pb-6 text-gray-600 leading-relaxed space-y-3">
                     <p>A one-week deadline does not compress the process. It forces a sequencing decision that most designers avoid: what does development need first to never be blocked, and what can be precisely specified instead of fully designed without slowing anything down.</p>
                     <p>The week splits into three phases.</p>
-                    <p>Foundation first. IA, role permissions, and data rules are locked in writing before any screen is opened. These are the decisions that cause full redesigns if they shift mid-week. Locking them early protects everything that follows.</p>
-                    <p>Critical path hi-fi. The Requisition Template wizard is the entry point to everything. Designing it completely generates the component library as a byproduct — tables, form fields, status badges, navigation shell. Development receives the component library by end of Day 2 and starts building while design continues.</p>
-                    <p>Assembly over redesign. Vendor Portal shares 70% of Org Portal components. Candidate Portal is three screens. Admin Portal is internal tooling — a precise annotated spec ships faster and safer than rushed hi-fi with missing edge cases. Every portal is development-ready. Not every portal is hi-fi.</p>
+                    <div className="space-y-2 mt-3">
+                      <div className="flex gap-3">
+                        <span className="text-gray-900 font-medium">-</span>
+                        <p><span className="font-semibold text-gray-900">Foundation first.</span> IA, role permissions, and data rules are locked in writing before any screen is opened. These are the decisions that cause full redesigns if they shift mid-week. Locking them early protects everything that follows.</p>
+                      </div>
+                      <div className="flex gap-3">
+                        <span className="text-gray-900 font-medium">-</span>
+                        <p><span className="font-semibold text-gray-900">Critical path hi-fi.</span> The Requisition Template wizard is the entry point to everything. Designing it completely generates the component library as a byproduct — tables, form fields, status badges, navigation shell. Development receives the component library by end of Day 2 and starts building while design continues.</p>
+                      </div>
+                      <div className="flex gap-3">
+                        <span className="text-gray-900 font-medium">-</span>
+                        <p><span className="font-semibold text-gray-900">Assembly over redesign.</span> Vendor Portal shares 70% of Org Portal components. Candidate Portal is three screens. Admin Portal is internal tooling — a precise annotated spec ships faster and safer than rushed hi-fi with missing edge cases. Every portal is development-ready. Not every portal is hi-fi.</p>
+                      </div>
+                    </div>
                   </div>
                   <div className="h-px bg-gray-200"></div>
                   <h3 className="text-xl font-semibold text-gray-900 py-4">Detail your strategy for prioritisation, how you would handle &quot;Non-Goals&quot; (like external HR integrations or custom roles).</h3>
