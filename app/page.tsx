@@ -272,7 +272,7 @@ export default function AccessIQCaseStudy() {
                   <div className="w-full aspect-video">
                     <iframe
                       style={{ border: "1px solid rgba(0, 0, 0, 0.1)", width: "100%", height: "100%" }}
-                      src="https://embed.figma.com/design/d3flG936CO8wKQd9woX1xe/NexusForce---Heizen?node-id=0-1&embed-host=share"
+                      src="https://embed.figma.com/proto/d3flG936CO8wKQd9woX1xe/NexusForce---Heizen?node-id=1-8674&viewport=-233%2C-2089%2C0.11&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A8674&page-id=0%3A1&embed-host=share"
                       allowFullScreen
                     />
                   </div>
