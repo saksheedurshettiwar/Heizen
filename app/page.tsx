@@ -10,6 +10,7 @@ const tabs = [
   { id: "data", label: "Data Relationship and Compliance Mapping" },
   { id: "interaction", label: "Interaction Design" },
   { id: "strategic", label: "Strategic Approach" },
+  { id: "critical", label: "Critical Scenarios" },
 ];
 
 export default function AccessIQCaseStudy() {
@@ -535,6 +536,102 @@ export default function AccessIQCaseStudy() {
                 </div>
               </div>
 
+            </div>
+          )}
+
+          {activeTab === "critical" && (
+            <div className="space-y-12 pt-8">
+              <div className="w-full">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Compliance Regulation Changes at State Level</h3>
+                <p className="text-gray-600 leading-relaxed mb-8">
+                  California mandates a new document requirement for ICU nurses. Admin needs to update the checklist but active placements are frozen per the Immutability Rule. This is a conflict between system design and legal obligation.
+                </p>
+                <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
+                  <Image
+                    src="/Critical/Regulatory%20Override.png"
+                    alt="Regulatory Override mock"
+                    width={1440}
+                    height={900}
+                    className="w-full h-auto"
+                  />
+                </div>
+              </div>
+
+              <div className="w-full h-px bg-gray-200 mt-12 mb-12"></div>
+
+              <div className="w-full">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Bill Rate Negotiated After Job Is Live</h3>
+                <p className="text-gray-600 leading-relaxed mb-8">
+                  ICU job posted at $250/hr. Vendors submit 3 candidates. Procurement renegotiates to $300/hr. No mechanism exists to update a live job's bill rate. Invoices will generate at the wrong rate.
+                </p>
+                <div className="space-y-8">
+                  <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
+                    <Image
+                      src="/Critical/Bill%20Rate%20Amendment%20-%2001.png"
+                      alt="Bill Rate Amendment mock 1"
+                      width={1440}
+                      height={900}
+                      className="w-full h-auto"
+                    />
+                  </div>
+                  <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
+                    <Image
+                      src="/Critical/Bill%20Rate%20Amendment%20-%2002.png"
+                      alt="Bill Rate Amendment mock 2"
+                      width={1440}
+                      height={900}
+                      className="w-full h-auto"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-full h-px bg-gray-200 mt-12 mb-12"></div>
+
+              <div className="w-full">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Same Template Used Across Fiscal Year Boundary</h3>
+                <p className="text-gray-600 leading-relaxed mb-8">
+                  Template created Dec 2025 with $10,000 signing bonus. Used to post jobs in Jan 2026 when tax rules change. Finance flags incorrect withholding 3 months later.
+                </p>
+                <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
+                  <Image
+                    src="/Critical/Template%20Fiscal%20Year%20Review.png"
+                    alt="Template Fiscal Year Review mock"
+                    width={1440}
+                    height={900}
+                    className="w-full h-auto"
+                  />
+                </div>
+              </div>
+
+              <div className="w-full h-px bg-gray-200 mt-12 mb-12"></div>
+
+              <div className="w-full">
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Job Posted During a Hiring Freeze</h3>
+                <p className="text-gray-600 leading-relaxed mb-8">
+                  James posts an ICU job. CFO approved a hiring freeze for Critical Care the same morning. NexusForce has no connection to budget approval systems. Job goes live. Candidate placed. Finance rejects it weeks later.
+                </p>
+                <div className="space-y-8">
+                  <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
+                    <Image
+                      src="/Critical/Hiring%20Freeze%20Confirmation%20-%2001.png"
+                      alt="Hiring Freeze Confirmation mock 1"
+                      width={1440}
+                      height={900}
+                      className="w-full h-auto"
+                    />
+                  </div>
+                  <div className="relative w-full border border-gray-200 rounded-[12px] overflow-hidden">
+                    <Image
+                      src="/Critical/Hiring%20Freeze%20Confirmation%20-%2002.png"
+                      alt="Hiring Freeze Confirmation mock 2"
+                      width={1440}
+                      height={900}
+                      className="w-full h-auto"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           )}
         </section>
