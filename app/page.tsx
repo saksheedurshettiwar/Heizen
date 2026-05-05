@@ -223,18 +223,18 @@ export default function AccessIQCaseStudy() {
                 <div className="grid md:grid-cols-3 gap-8">
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-200">
                     <h3 className="text-lg font-semibold text-gray-900 mb-3">Admin</h3>
-                    <p className="text-gray-700">Creates Compliance Checklist</p>
-                    <p className="text-gray-500 mt-2 text-sm">(list of docs a worker must have for a job type)</p>
+                    <p className="text-gray-700 font-medium mb-1">Creates Compliance Checklist</p>
+                    <p className="text-gray-500 text-sm">A governed list of documents every worker must submit before being placed against a job.</p>
                   </div>
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-200">
                     <h3 className="text-lg font-semibold text-gray-900 mb-3">Org</h3>
-                    <p className="text-gray-700">Creates Requisition Template</p>
-                    <p className="text-gray-500 mt-2 text-sm">(job description — attaches a checklist to it)</p>
+                    <p className="text-gray-700 font-medium mb-1">Creates Requisition Template</p>
+                    <p className="text-gray-500 text-sm">A structured job posting that defines the role, shift, rate, and compliance requirements.</p>
                   </div>
                   <div className="p-6 bg-gray-50 rounded-xl border border-gray-200">
                     <h3 className="text-lg font-semibold text-gray-900 mb-3">Candidate</h3>
-                    <p className="text-gray-700">Owns Document Wallet</p>
-                    <p className="text-gray-500 mt-2 text-sm">(their personal docs — BLS cert, license, etc.)</p>
+                    <p className="text-gray-700 font-medium mb-1">Owns Document Wallet</p>
+                    <p className="text-gray-500 text-sm">A personal document repository submitted and compared against job requirements at placement.</p>
                   </div>
                 </div>
               </div>
