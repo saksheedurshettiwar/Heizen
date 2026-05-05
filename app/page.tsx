@@ -457,23 +457,26 @@ export default function AccessIQCaseStudy() {
                 </div>
                 <div className="space-y-10">
                   <p className="text-lg text-gray-600 leading-relaxed">Prioritisation in a one-week sprint is not about what is important. Everything on the brief is important. It is about what blocks development if it is missing, and what can be added later without touching existing work.</p>
+                  <p className="text-lg text-gray-600 leading-relaxed">Three tiers. One rule per tier.</p>
                   <div className="grid grid-cols-3 gap-0 border border-gray-200 rounded-2xl overflow-hidden">
                     <div className="p-8 border-r border-gray-200">
-                      <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Ships hi-fi</p>
-                      <p className="text-sm text-gray-700 leading-snug">Wizard · Org Portal · Component library</p>
+                      <p className="text-sm font-bold text-gray-900 mb-3 uppercase tracking-wide">Ships hi-fi — no negotiation</p>
+                      <p className="text-sm font-medium text-gray-700 mb-3">Wizard · Org Portal · Component library</p>
+                      <p className="text-sm text-gray-600 leading-relaxed">The load-bearing decisions. If any of them are wrong or missing, development builds on an unstable foundation and every downstream module pays the cost.</p>
                     </div>
                     <div className="p-8 border-r border-gray-200">
-                      <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Ships specified</p>
-                      <p className="text-sm text-gray-700 leading-snug">Vendor · Candidate · Admin portals</p>
+                      <p className="text-sm font-bold text-gray-900 mb-3 uppercase tracking-wide">Ships specified — fully development-ready</p>
+                      <p className="text-sm font-medium text-gray-700 mb-3">Vendor · Candidate · Admin portals</p>
+                      <p className="text-sm text-gray-600 leading-relaxed">Precisely annotated and development-ready. Not every screen needs to be hi-fi for development to start building it correctly. Org Portal components do the heavy lifting.</p>
                     </div>
                     <div className="p-8">
-                      <p className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Does not ship</p>
-                      <p className="text-sm text-gray-700 leading-snug">HR integrations · Custom roles · Reporting</p>
+                      <p className="text-sm font-bold text-gray-900 mb-3 uppercase tracking-wide">Does not ship — and that is documented</p>
+                      <p className="text-sm font-medium text-gray-700 mb-3">HR integrations · Custom roles · Reporting</p>
+                      <p className="text-sm text-gray-600 leading-relaxed">Out of scope for Phase 1. Each gets a stub in the navigation with a Phase 2 label. Absent now and added later means development touches navigation code twice. Stub once. Never revisit.</p>
                     </div>
                   </div>
-                  <p className="text-[15px] text-gray-600 leading-relaxed">External HR integrations, custom role builder, full reporting, and invoice dispute handling are out of scope for Phase 1. Each gets a stub in the navigation with a Phase 2 label. Stubbing once costs 15 minutes and saves a future sprint.</p>
                   <div className="pt-4">
-                    <p className="text-xl font-medium text-gray-900 leading-relaxed">Non-goals are not failures. They are decisions. Every non-goal is named, reasoned, and written into the handoff before delivery.</p>
+                    <p className="text-xl font-medium text-gray-900 leading-relaxed">Non-goals are not failures. They are decisions. The difference between running out of time and making a deliberate call is one document written before delivery.</p>
                   </div>
                 </div>
               </div>
